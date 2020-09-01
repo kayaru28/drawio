@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-01T14:22:31.787Z" agent="5.0 (Windows)" etag="udEtiLAmhS-vp7CQvzK2" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-01T14:24:35.687Z" agent="5.0 (Windows)" etag="i1jU22Ij0g_Z-R9fj7kC" version="13.6.6" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1673" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="6r5c6PiM2jZmkin86mju-9" value="Create" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="6r5c6PiM2jZmkin86mju-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6r5c6PiM2jZmkin86mju-10" value="Record" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="6r5c6PiM2jZmkin86mju-10" value="Records" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="330" y="190" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6r5c6PiM2jZmkin86mju-17" value="Editor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=center;" vertex="1" parent="1">
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="6r5c6PiM2jZmkin86mju-27" value="&lt;h1&gt;Overall&lt;/h1&gt;&lt;p&gt;tool&#39;s main proceess&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="780" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6r5c6PiM2jZmkin86mju-28" value="&lt;h1&gt;Create&lt;/h1&gt;&lt;p&gt;new transaction record create to Records&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="780" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
