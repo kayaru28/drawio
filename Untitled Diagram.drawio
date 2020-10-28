@@ -1,9 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T13:02:28.488Z" agent="5.0 (Windows)" etag="AQl3Ivp08-cA-yWP3m9h" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T13:13:07.799Z" agent="5.0 (Windows)" etag="q9dXL3sUDysCFYHW0Qhj" version="13.8.5" type="github">
   <diagram id="8WrJlLbyAuJpoksodZJ5" name="Page-1">
-    <mxGraphModel dx="460" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-3" value="&lt;div&gt;WEB(Flask)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-4" value="&lt;div&gt;DB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-5" value="&lt;div&gt;日付&lt;/div&gt;&lt;div&gt;名前&lt;/div&gt;&lt;div&gt;出した手&lt;/div&gt;&lt;div&gt;出てきた手&lt;/div&gt;&lt;div&gt;勝敗&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="190" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-6" value="じゃんけん" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-7" value="&lt;div&gt;勝率&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="180" as="sourcePoint" />
+            <mxPoint x="270" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-12" value="&lt;div&gt;手を出す&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-11">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-14" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="271" y="200" as="sourcePoint" />
+            <mxPoint x="90" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-15" value="勝敗" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-14">
+          <mxGeometry x="-0.2707" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="210" as="sourcePoint" />
+            <mxPoint x="660" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-17" value="記録" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-16">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="340" as="sourcePoint" />
+            <mxPoint x="270" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-19" value="名前を入れる" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-18">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="271" y="360" as="sourcePoint" />
+            <mxPoint x="90" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-21" value="勝率" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-20">
+          <mxGeometry x="-0.2707" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-22" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="cD-Ktcyn87LeDn9y7hVb-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="330" as="sourcePoint" />
+            <mxPoint x="660" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-23" value="Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-22">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-24" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="662" y="290" as="sourcePoint" />
+            <mxPoint x="482" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-25" value="勝率" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-24">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
