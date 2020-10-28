@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T13:16:02.832Z" agent="5.0 (Windows)" etag="p6ZN9YVUIOdfzblbccJp" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T13:16:29.485Z" agent="5.0 (Windows)" etag="KubHt4g78cyBZE3Pz_GX" version="13.8.5" type="github">
   <diagram id="8WrJlLbyAuJpoksodZJ5" name="Page-1">
     <mxGraphModel dx="1180" dy="1081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cD-Ktcyn87LeDn9y7hVb-48" value="&lt;div&gt;WEB(Flask)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-48" value="&lt;div&gt;WEB(Apache)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="260" y="460" width="240" height="300" as="geometry" />
         </mxCell>
         <mxCell id="cD-Ktcyn87LeDn9y7hVb-49" value="じゃんけん" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
