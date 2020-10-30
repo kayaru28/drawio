@@ -40,7 +40,7 @@
             <mxPoint x="270" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cD-Ktcyn87LeDn9y7hVb-12" value="&lt;div&gt;手を出す&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-11">
+        <mxCell id="cD-Ktcyn87LeDn9y7hVb-12" value="&lt;div&gt;手を選択する&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cD-Ktcyn87LeDn9y7hVb-11">
           <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
