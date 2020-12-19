@@ -1,2 +1,2 @@
 # drawio
-some samples of chart by draw.io
+some samples of chart drew by draw.io
