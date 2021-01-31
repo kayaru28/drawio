@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T17:00:22.512Z" agent="5.0 (Windows)" etag="RRKtwfjWf1JqOsA362FN" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T17:24:18.065Z" agent="5.0 (Windows)" etag="WFLKsjyopvPVkMsTaBZN" version="14.2.9" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="686" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="606" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="39150e848f15840c-3" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="370" y="410" width="260" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="39150e848f15840c-4" value="&amp;laquo;interface&amp;raquo;&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="39150e848f15840c-4" value="«interface»&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="160" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="39150e848f15840c-5" value="Module" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="39150e848f15840c-7" value="Module" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="135" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="39150e848f15840c-8" value="&amp;laquo;interface&amp;raquo;&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="39150e848f15840c-8" value="«interface»&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="720" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="39150e848f15840c-9" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
@@ -72,9 +72,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-1" value="app.py" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="50" y="620" width="700" height="1030" as="geometry" />
+          <mxGeometry x="50" y="620" width="700" height="1380" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-3" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;run&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;(self, host=None, port=None, debug=None, &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; load_dotenv=True, **options)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;JUDGE -&amp;gt; ENV : FLASK_RUN_FROM_CLI&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;JUDGE -&amp;gt; &lt;b&gt;get_load_dotenv(load_dotenv)&lt;/b&gt; &lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;server_name = self.config.get(&quot;SERVER_NAME&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cli.show_server_banner(self.env, self.debug, self.name, False)&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; from werkzeug.serving import run_simple&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; try:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; run_simple(host, port, self, **options)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; finally:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; # reset the first request information if the development server&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; # reset normally.&amp;nbsp; This makes it possible to restart the server&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; # without reloader and that stuff from an interactive shell.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; self._got_first_request = False&lt;br&gt;&lt;/div&gt;" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-3" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;run&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;(self, host=None, port=None, debug=None, &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; load_dotenv=True, **options)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;JUDGE -&amp;gt; ENV : FLASK_RUN_FROM_CLI&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;JUDGE -&amp;gt; &lt;b&gt;get_load_dotenv(load_dotenv)&lt;/b&gt; &lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;server_name = self.config.get(&quot;SERVER_NAME&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;if server_name:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; sn_host, _, sn_port = server_name.partition(&quot;:&quot;)&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if not host:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if sn_host:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; host = sn_host&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; else:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; host = &quot;127.0.0.1&quot;&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if port or port == 0:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; port = int(port)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; elif sn_port:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; port = int(sn_port)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; else:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; port = 5000&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; options.setdefault(&quot;use_reloader&quot;, self.debug)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; options.setdefault(&quot;use_debugger&quot;, self.debug)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; options.setdefault(&quot;threaded&quot;, True)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;cli.show_server_banner(self.env, self.debug, self.name, False)&lt;/b&gt;&lt;br&gt;&lt;br&gt;from werkzeug.serving import run_simple&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;run_simple(host, port, self, **options)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="150" y="685" width="560" height="925" as="geometry" />
         </mxCell>
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-14" value="debughelpers.py" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
@@ -83,7 +83,7 @@
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-15" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;explain_ignored_app_run&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;ENV : WERKZEUG_RUN_MAIN !=true&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1290" y="245" width="375" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-17" value="&lt;div&gt;«method»&lt;b&gt;warn @warnings&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-17" value="&lt;div&gt;«method»&lt;b&gt;warn @warnings&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1370" y="310" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-19" value="helpers.py" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
@@ -92,7 +92,7 @@
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-20" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;get_load_dotenv&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;(default=True)&lt;/div&gt;&lt;div&gt;return bool , fllowing case is true&lt;br&gt;&lt;ul&gt;&lt;li&gt;ENV:FLASK_SKIP_DOTENV == false and defalut == true&lt;/li&gt;&lt;li&gt;ENV:FLASK_SKIP_DOTENV not in (0.false.no) &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1280" y="850" width="570" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-21" value="call" style="html=1;verticalAlign=bottom;endArrow=none;exitX=0;exitY=0.3;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-21" value="call" style="html=1;verticalAlign=bottom;endArrow=none;exitX=0;exitY=0.3;exitDx=0;exitDy=0;endFill=0;fontFamily=Verdana;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1290" y="276.5" as="sourcePoint" />
             <mxPoint x="460" y="820" as="targetPoint" />
@@ -101,41 +101,41 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-22" value="call" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaJOjj-_FPfXvdRfiVyD-20" target="AaJOjj-_FPfXvdRfiVyD-18">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-22" value="call" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="AaJOjj-_FPfXvdRfiVyD-20" target="AaJOjj-_FPfXvdRfiVyD-18">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1290" y="340" as="sourcePoint" />
             <mxPoint x="429.9999999999998" y="853.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-23" value="&amp;nbsp; true" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=50;height=20;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-23" value="&amp;nbsp; true" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=50;height=20;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="210" y="780" width="470" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-18" value="&lt;div&gt;«method»&lt;/div&gt;" style="html=1;align=center;rounded=0;dashed=1;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="870" width="63" height="15" as="geometry" />
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-18" value="&lt;div&gt;«method»&lt;/div&gt;" style="html=1;align=center;rounded=0;dashed=1;sketch=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="460" y="870" width="70" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-25" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;explain_ignored_app_run&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;return&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-25" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;explain_ignored_app_run&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;return&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="232" y="810" width="228" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-26" value="&amp;nbsp; true" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=50;height=20;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-26" value="&amp;nbsp; true" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=50;height=20;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="210" y="890" width="470" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-30" value="&lt;div&gt;&lt;b&gt;cli.load_dotenv&lt;/b&gt;&lt;/div&gt;&lt;div&gt;JUDGE -&amp;gt;ENV : FLASK_ENV&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-30" value="&lt;div&gt;&lt;b&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;cli.load_dotenv&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;JUDGE -&amp;gt;ENV : FLASK_ENV&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="232" y="909" width="238" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-33" value="&amp;nbsp;exist" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=70;height=20;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-33" value="&amp;nbsp;exist" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=70;height=20;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="260" y="950" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-34" value="&lt;div&gt;env&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; = &lt;b&gt;get_env&lt;/b&gt; &lt;/div&gt;&lt;div&gt;debug = &lt;b&gt;get_debug_flag&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-34" value="&lt;div&gt;env&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; = &lt;b&gt;get_env&lt;/b&gt; &lt;/div&gt;&lt;div&gt;debug = &lt;b&gt;get_debug_flag&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="270" y="970" width="238" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-36" value="&amp;nbsp;exist" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=70;height=20;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-36" value="&amp;nbsp;exist" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=70;height=20;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="260" y="1040" width="410" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-37" value="JUDGE -&amp;gt;ENV : FLASK_DEBUG" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-37" value="JUDGE -&amp;gt;ENV : FLASK_DEBUG" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="232" y="1020" width="238" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-38" value="&lt;div&gt;debug = &lt;b&gt;get_debug_flag&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-38" value="&lt;div&gt;debug = &lt;b&gt;get_debug_flag&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="270" y="1060" width="380" height="25" as="geometry" />
         </mxCell>
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-39" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;get_env&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;()&lt;/div&gt;&lt;div&gt;return env value getting from os about FLASK_ENV &lt;br&gt;&lt;/div&gt;&lt;div&gt;or &quot;production&quot;&lt;br&gt;&lt;/div&gt;" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -144,7 +144,7 @@
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-40" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;get_debug_flag&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;()&lt;/div&gt;&lt;div&gt;return bool , fllowing case is true&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;ENV:FLASK_DEBUG == false and &amp;lt;method&amp;gt;get_env == &quot;development&quot;&lt;/li&gt;&lt;li&gt;ENV:FLASK_DEBUG != false and ENV:FLASK_DEBUG not in (0.false.no) &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1280" y="1080" width="570" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-43" value="call" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaJOjj-_FPfXvdRfiVyD-39" target="AaJOjj-_FPfXvdRfiVyD-59">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-43" value="call" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="AaJOjj-_FPfXvdRfiVyD-39" target="AaJOjj-_FPfXvdRfiVyD-59">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1300" y="934" as="sourcePoint" />
             <mxPoint x="570" y="992.5000000000002" as="targetPoint" />
@@ -153,7 +153,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-44" value="call" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaJOjj-_FPfXvdRfiVyD-40" target="AaJOjj-_FPfXvdRfiVyD-61">
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-44" value="call" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="AaJOjj-_FPfXvdRfiVyD-40" target="AaJOjj-_FPfXvdRfiVyD-61">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1280" y="1034" as="sourcePoint" />
             <mxPoint x="570" y="1008.5" as="targetPoint" />
@@ -162,17 +162,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-57" value="&lt;div&gt;«method»&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;fontColor=#000000;align=center;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="815" width="59" height="15" as="geometry" />
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-57" value="&lt;div&gt;«method»&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;fontColor=#000000;align=center;dashed=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="410" y="815" width="70" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-58" value="&lt;div&gt;«method»&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;fontColor=#000000;align=center;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="930.5" width="59" height="15" as="geometry" />
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-58" value="&lt;div&gt;«method»&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;fontColor=#000000;align=center;dashed=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="340" y="913" width="70" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-59" value="&lt;div&gt;«method»&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;fontColor=#000000;align=center;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="411" y="977" width="59" height="15" as="geometry" />
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-59" value="&lt;div&gt;«method»&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;fontColor=#000000;align=center;dashed=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="440" y="977" width="70" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="AaJOjj-_FPfXvdRfiVyD-61" value="&lt;div&gt;«method»&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;fontColor=#000000;align=center;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="411" y="992" width="59" height="15" as="geometry" />
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-61" value="&lt;div&gt;«method»&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;fontColor=#000000;align=center;dashed=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="440" y="992" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-62" value="cli.py" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1390" width="630" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-64" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;load_dotenv&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;(path=None)&lt;/div&gt;&lt;div&gt;loading env file and set values on the file to env, if file is existing&lt;br&gt;&lt;/div&gt;" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1430" width="570" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-65" value="call" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="AaJOjj-_FPfXvdRfiVyD-64" target="AaJOjj-_FPfXvdRfiVyD-58">
+          <mxGeometry x="0.2477" width="80" relative="1" as="geometry">
+            <mxPoint x="1278" y="1189.5000000000005" as="sourcePoint" />
+            <mxPoint x="508" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="924" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AaJOjj-_FPfXvdRfiVyD-66" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;show_server_banner&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;(env, debug, app_import_path, eager_loading)&lt;/div&gt;if not ENV:WERKZEUG_RUN_MAIN is true, show banner by &lt;b&gt;click.echo or click.secho&lt;/b&gt;" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1520" width="570" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-51" value="comments" parent="0" />
         <mxCell id="AaJOjj-_FPfXvdRfiVyD-49" value="ENV SETTING" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;align=center;rotation=-90;arrowWidth=0.4046345811051734;arrowSize=0.07219251336898393;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=0;" vertex="1" parent="AaJOjj-_FPfXvdRfiVyD-51">
