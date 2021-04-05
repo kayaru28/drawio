@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T15:47:37.695Z" agent="5.0 (Windows)" etag="ebzykgsMw-AR-MCrEiT6" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-05T15:50:50.086Z" agent="5.0 (Windows)" etag="kqjinqNqIFjXK7HatXxm" version="14.2.9" type="github" pages="2">
   <diagram id="8WrJlLbyAuJpoksodZJ5" name="UserInterface">
-    <mxGraphModel dx="2031" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-23" value="&lt;div&gt;DB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="920" y="830" width="500" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-64" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1188" y="1012" width="190" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-51" value="&lt;div&gt;WEB(Flask)×N&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="630" y="840" width="240" height="300" as="geometry" />
         </mxCell>
@@ -268,11 +274,8 @@
         <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-22" value="LB" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="260" y="830" width="240" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-23" value="&lt;div&gt;DB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="920" y="830" width="240" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-24" value="&lt;div&gt;日付&lt;/div&gt;&lt;div&gt;名前&lt;/div&gt;&lt;div&gt;出した手&lt;/div&gt;&lt;div&gt;出てきた手&lt;/div&gt;&lt;div&gt;勝敗&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="900" width="120" height="140" as="geometry" />
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-24" value="&lt;div&gt;【Master】&lt;br&gt;&lt;/div&gt;&lt;div&gt;日付,名前,出した手,出てきた手,勝敗&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="870" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-25" value="&lt;div&gt;じゃんけん&lt;/div&gt;&lt;div&gt;受付&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="880" width="200" height="70" as="geometry" />
@@ -308,7 +311,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-33" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-33" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="uMBIApaBZ_D4Jtqg2Sx6-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="920" as="sourcePoint" />
             <mxPoint x="1020" y="920" as="targetPoint" />
@@ -341,28 +344,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-39" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uMBIApaBZ_D4Jtqg2Sx6-24">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="1040" as="sourcePoint" />
-            <mxPoint x="1020" y="1040" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-40" value="Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMBIApaBZ_D4Jtqg2Sx6-39">
-          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-41" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1022" y="1000" as="sourcePoint" />
-            <mxPoint x="842" y="1070" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-42" value="勝率" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMBIApaBZ_D4Jtqg2Sx6-41">
-          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-54" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uMBIApaBZ_D4Jtqg2Sx6-25" target="uMBIApaBZ_D4Jtqg2Sx6-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="969.2900000000002" as="sourcePoint" />
@@ -381,6 +362,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-59" value="振分" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMBIApaBZ_D4Jtqg2Sx6-58">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-61" value="&lt;div&gt;【Slave】&lt;br&gt;&lt;/div&gt;&lt;div&gt;日付,名前,出した手,出てきた手,勝敗&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1000" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-62" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uMBIApaBZ_D4Jtqg2Sx6-24" target="uMBIApaBZ_D4Jtqg2Sx6-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="993.75" as="sourcePoint" />
+            <mxPoint x="1600" y="986.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-63" value="Replication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMBIApaBZ_D4Jtqg2Sx6-62">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-65" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;Router&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1020" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-39" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=32.5;entryPerimeter=0;" edge="1" parent="1" target="uMBIApaBZ_D4Jtqg2Sx6-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="1040" as="sourcePoint" />
+            <mxPoint x="1020" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-40" value="Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMBIApaBZ_D4Jtqg2Sx6-39">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-41" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=67.5;exitPerimeter=0;" edge="1" parent="1" source="uMBIApaBZ_D4Jtqg2Sx6-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1022" y="1000" as="sourcePoint" />
+            <mxPoint x="842" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-42" value="勝率" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMBIApaBZ_D4Jtqg2Sx6-41">
           <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
