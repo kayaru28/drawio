@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T15:50:50.086Z" agent="5.0 (Windows)" etag="kqjinqNqIFjXK7HatXxm" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-05T15:51:50.958Z" agent="5.0 (Windows)" etag="61AZyyV7uWcdy0OORvR1" version="14.2.9" type="github" pages="2">
   <diagram id="8WrJlLbyAuJpoksodZJ5" name="UserInterface">
     <mxGraphModel dx="1673" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -402,7 +402,7 @@
         </mxCell>
         <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-42" value="勝率" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMBIApaBZ_D4Jtqg2Sx6-41">
           <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-105.88" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
