@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T07:53:26.320Z" agent="5.0 (Windows)" etag="_2JXadUf7m38FTW03dJs" version="14.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-10T22:30:54.623Z" agent="5.0 (Windows)" etag="lEQfngVbO5hbyzHl7sdm" version="14.5.8" type="github" pages="2">
   <diagram id="8WrJlLbyAuJpoksodZJ5" name="UserInterface">
-    <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -525,6 +525,51 @@
         </mxCell>
         <mxCell id="uMBIApaBZ_D4Jtqg2Sx6-93" value="Node×N" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="880" y="1629" width="255" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-1" value="ML" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1200" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-2" value="推定モデル" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1410" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-3" value="パラメータ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="1320" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-4" value="予測モデル" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1230" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uMBIApaBZ_D4Jtqg2Sx6-67" target="O_XBNPCBkUXhJjzRBAJz-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="1380" as="sourcePoint" />
+            <mxPoint x="682.5" y="1609.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-6" value="Output" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O_XBNPCBkUXhJjzRBAJz-5">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint x="-21.43" y="-18.42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O_XBNPCBkUXhJjzRBAJz-2" target="O_XBNPCBkUXhJjzRBAJz-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="1380" as="sourcePoint" />
+            <mxPoint x="1009.9999999999995" y="1455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-8" value="ML" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O_XBNPCBkUXhJjzRBAJz-7">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint x="-21.43" y="-18.42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O_XBNPCBkUXhJjzRBAJz-4" target="uMBIApaBZ_D4Jtqg2Sx6-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1109.9999999999995" y="1420" as="sourcePoint" />
+            <mxPoint x="1109.9999999999995" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_XBNPCBkUXhJjzRBAJz-10" value="FeedBack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O_XBNPCBkUXhJjzRBAJz-9">
+          <mxGeometry x="-0.3222" y="-1" relative="1" as="geometry">
+            <mxPoint x="-21.43" y="-18.42" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
