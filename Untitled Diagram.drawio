@@ -1,1 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T15:45:04.106Z" agent="5.0 (Windows)" version="14.6.11" etag="KjwQzwmgyadApEzPtXF9" type="github"><diagram id="wNQLYmYF62y0igghQ7JW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-08T16:09:00.910Z" agent="5.0 (Windows)" etag="zGJKojdmQafVhix_y28F" version="14.6.11" type="github">
+  <diagram id="wNQLYmYF62y0igghQ7JW" name="Page-1">
+    <mxGraphModel dx="1185" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="https://docs.sqlalchemy.org/en/14/" link="https://docs.sqlalchemy.org/en/14/" id="EakAeUmGigfSWVAu4uiQ-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="30" y="30" width="210" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EakAeUmGigfSWVAu4uiQ-2" value="SQLAlchemy ORM" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EakAeUmGigfSWVAu4uiQ-3" value="Object Relational Mapper (ORM)" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EakAeUmGigfSWVAu4uiQ-5" value="SQLAlchemy Core" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="330" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
