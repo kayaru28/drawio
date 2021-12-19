@@ -1,9 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-12-18T17:26:39.381Z" agent="5.0 (Windows)" etag="6Xll5CSwSbJNWtwB4H64" version="14.7.3" type="github">
-  <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Page-1">
-    <mxGraphModel dx="767" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-12-19T16:01:27.661Z" agent="5.0 (Windows)" etag="gTr6Eo2uqjPmigA5Uwh-" version="16.0.0" type="github" pages="3">
+  <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
+    <mxGraphModel dx="2249" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8odBSn9tUHjZUtZm2SAb-1" value="GurdDutyなどのセキュリティ系の連携情報を各" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="50" width="270" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eMCZGGUCeoL6aTH4PVcL" name="Logger">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="x1eHsDjAqJhIYTc2q656-0" />
+        <mxCell id="x1eHsDjAqJhIYTc2q656-1" parent="x1eHsDjAqJhIYTc2q656-0" />
+        <mxCell id="FBdqOmHa__JK2HkgMa2w-0" value="&lt;div&gt;様々なサービスのログ蓄積と参照情報を記載&lt;/div&gt;&lt;div&gt;中心はCloud Watch&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="x1eHsDjAqJhIYTc2q656-1">
+          <mxGeometry x="70" y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kBK3Wa1cMkwrZLb60u1y" name="Codeパイプライン">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XAEg0jdcLfFcSumQxdE7-0" />
+        <mxCell id="XAEg0jdcLfFcSumQxdE7-1" parent="XAEg0jdcLfFcSumQxdE7-0" />
+        <mxCell id="XAEg0jdcLfFcSumQxdE7-2" value="コード系のやつを記載" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+          <mxGeometry x="10" y="100" width="140" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
