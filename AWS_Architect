@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T10:25:19.396Z" agent="5.0 (Windows)" etag="ikSlrQ1whvMTP66g0fws" version="16.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-04T10:26:32.897Z" agent="5.0 (Windows)" etag="VhsK0S0oq3mTmX3TWCYw" version="16.1.2" type="github" pages="3">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="920" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
           <mxGeometry x="480" y="300" width="50" height="39" as="geometry" />
         </mxCell>
         <mxCell id="KmH8WQMNKaj6P6RdH80t-3" value="&lt;div&gt;buidspec.yml&lt;/div&gt;&lt;div&gt;ソースディレクトリに設置&lt;/div&gt;&lt;div&gt;コマンドによるパス指定も可能&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XAEg0jdcLfFcSumQxdE7-1" vertex="1">
-          <mxGeometry x="530" y="290" width="180" height="80" as="geometry" />
+          <mxGeometry x="530" y="300" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O-AIG3dGAroFjeWNoGT0-0" value="SOURCE／ARTIFACT" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=60;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
           <mxGeometry x="70" y="130" width="350" height="80" as="geometry" />
@@ -139,6 +139,12 @@
         </mxCell>
         <mxCell id="O-AIG3dGAroFjeWNoGT0-13" value="&lt;div align=&quot;left&quot;&gt;AWS CodeBuild&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;＋3rd Party&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
           <mxGeometry x="830" y="231" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O-AIG3dGAroFjeWNoGT0-14" value="&lt;div&gt;appspec.yml&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+          <mxGeometry x="1150" y="295" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O-AIG3dGAroFjeWNoGT0-15" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+          <mxGeometry x="1100" y="300" width="50" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
