@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T15:13:04.762Z" agent="5.0 (Windows)" etag="0_fKUYOWReUakT0uXJ2P" version="16.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-06T15:29:23.365Z" agent="5.0 (Windows)" etag="QzMSsgaXN55KzZzRw2Kc" version="16.2.2" type="github" pages="3">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kBK3Wa1cMkwrZLb60u1y" name="Codeパイプライン">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1016" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XAEg0jdcLfFcSumQxdE7-0" />
         <mxCell id="XAEg0jdcLfFcSumQxdE7-1" parent="XAEg0jdcLfFcSumQxdE7-0" />
@@ -112,9 +112,6 @@
         </mxCell>
         <mxCell id="O-AIG3dGAroFjeWNoGT0-4" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codeartifact;" parent="XAEg0jdcLfFcSumQxdE7-1" vertex="1">
           <mxGeometry x="130" y="230" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="O-AIG3dGAroFjeWNoGT0-5" value="AWS CodeArtifact&lt;br&gt;フルマネージド型のアーティファクトリポジトリサービスであり、あらゆる規模の組織がソフトウェア開発プロセスで使用されるソフトウェアパッケージを安全に保存、公開、および共有することを容易に" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;html=1;" parent="XAEg0jdcLfFcSumQxdE7-1" vertex="1">
-          <mxGeometry x="215" y="225" width="1120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O-AIG3dGAroFjeWNoGT0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="XAEg0jdcLfFcSumQxdE7-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -174,6 +171,9 @@
         </mxCell>
         <mxCell id="O-AIG3dGAroFjeWNoGT0-22" value="AWS ECS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XAEg0jdcLfFcSumQxdE7-1" vertex="1">
           <mxGeometry x="502" y="530" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BY-auyqTrOLzidRz3f_p-1" value="AWS CodeArtifact&lt;br&gt;&lt;div&gt;フルマネージド型のアーティファクトリポジトリサービス&lt;/div&gt;&lt;div&gt;ソフトウェア開発プロセスで使用されるソフトウェアパッケージを安全に保存、公開、および共有することを容易&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+          <mxGeometry x="215" y="250" width="215" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
