@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T15:29:23.365Z" agent="5.0 (Windows)" etag="QzMSsgaXN55KzZzRw2Kc" version="16.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-10T13:49:09.769Z" agent="5.0 (Windows)" etag="2PEG6QpNqQJ83R_65EVJ" version="16.2.2" type="github" pages="3">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eMCZGGUCeoL6aTH4PVcL" name="Logger">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="x1eHsDjAqJhIYTc2q656-0" />
         <mxCell id="x1eHsDjAqJhIYTc2q656-1" parent="x1eHsDjAqJhIYTc2q656-0" />
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kBK3Wa1cMkwrZLb60u1y" name="Codeパイプライン">
-    <mxGraphModel dx="1016" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XAEg0jdcLfFcSumQxdE7-0" />
         <mxCell id="XAEg0jdcLfFcSumQxdE7-1" parent="XAEg0jdcLfFcSumQxdE7-0" />
@@ -172,7 +172,7 @@
         <mxCell id="O-AIG3dGAroFjeWNoGT0-22" value="AWS ECS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XAEg0jdcLfFcSumQxdE7-1" vertex="1">
           <mxGeometry x="502" y="530" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BY-auyqTrOLzidRz3f_p-1" value="AWS CodeArtifact&lt;br&gt;&lt;div&gt;フルマネージド型のアーティファクトリポジトリサービス&lt;/div&gt;&lt;div&gt;ソフトウェア開発プロセスで使用されるソフトウェアパッケージを安全に保存、公開、および共有することを容易&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+        <mxCell id="BY-auyqTrOLzidRz3f_p-1" value="AWS CodeArtifact&lt;br&gt;&lt;div&gt;フルマネージド型のアーティファクトリポジトリサービス&lt;/div&gt;&lt;div&gt;ソフトウェア開発プロセスで使用されるソフトウェアパッケージを安全に保存、公開、および共有することを容易&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;" parent="XAEg0jdcLfFcSumQxdE7-1" vertex="1">
           <mxGeometry x="215" y="250" width="215" height="30" as="geometry" />
         </mxCell>
       </root>
