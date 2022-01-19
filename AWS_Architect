@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T11:57:00.274Z" agent="5.0 (Windows)" etag="CAPH5L36TOEagNJi1p_B" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-19T13:43:36.705Z" agent="5.0 (Windows)" etag="EuVABmzmJupjQU-rQ1C4" version="16.2.4" type="github" pages="3">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="706" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kBK3Wa1cMkwrZLb60u1y" name="Codeパイプライン">
-    <mxGraphModel dx="1412" dy="1524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2374" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XAEg0jdcLfFcSumQxdE7-0" />
         <mxCell id="XAEg0jdcLfFcSumQxdE7-1" parent="XAEg0jdcLfFcSumQxdE7-0" />
@@ -184,16 +184,16 @@
         <mxCell id="BY-auyqTrOLzidRz3f_p-1" value="AWS CodeArtifact&lt;br&gt;&lt;div&gt;フルマネージド型のアーティファクトリポジトリサービス&lt;/div&gt;&lt;div&gt;ソフトウェア開発プロセスで使用されるソフトウェアパッケージを安全に保存、公開、および共有することを容易&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;" parent="XAEg0jdcLfFcSumQxdE7-1" vertex="1">
           <mxGeometry x="215" y="250" width="215" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y17C5RDgbqLERIgbyDdB-0" value="Install" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=40;fillColor=#E6FFCC;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+        <mxCell id="y17C5RDgbqLERIgbyDdB-0" value="Install" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=40;fillColor=#CCE5FF;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
           <mxGeometry x="450" y="710" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y17C5RDgbqLERIgbyDdB-1" value="pre_build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=40;fillColor=#E6FFCC;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+        <mxCell id="y17C5RDgbqLERIgbyDdB-1" value="pre_build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=40;fillColor=#CCE5FF;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
           <mxGeometry x="610" y="710" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y17C5RDgbqLERIgbyDdB-2" value="post_build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=40;fillColor=#E6FFCC;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+        <mxCell id="y17C5RDgbqLERIgbyDdB-2" value="post_build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=40;fillColor=#CCE5FF;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
           <mxGeometry x="930" y="710" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y17C5RDgbqLERIgbyDdB-3" value="build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=40;fillColor=#E6FFCC;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+        <mxCell id="y17C5RDgbqLERIgbyDdB-3" value="build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=40;fillColor=#CCE5FF;strokeColor=#10739e;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
           <mxGeometry x="770" y="710" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="y17C5RDgbqLERIgbyDdB-4" value="&lt;div&gt;ビルドするのに必要な&lt;/div&gt;&lt;div&gt;ライブラリを用意&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
