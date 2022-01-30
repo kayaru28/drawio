@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-30T10:38:57.360Z" agent="5.0 (Windows)" etag="IeTnyU93BSWC0yA7few5" version="16.3.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-30T10:44:20.410Z" agent="5.0 (Windows)" etag="Fxy9irbDjcvDXDm5wm5m" version="16.3.0" type="github" pages="4">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="706" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -254,6 +254,9 @@
         </mxCell>
         <mxCell id="b7lBq5WsuaWpGGD7jH-2-9" value="&lt;div&gt;ターゲット&lt;br&gt;&lt;/div&gt;&lt;div&gt;DB&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="IVW8Lx1JuPnWkInQIhZD-1">
           <mxGeometry x="744" y="182.5" width="66" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="b7lBq5WsuaWpGGD7jH-2-15" value="スキーマ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IVW8Lx1JuPnWkInQIhZD-1">
+          <mxGeometry x="17" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
