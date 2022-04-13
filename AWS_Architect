@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T01:28:45.418Z" agent="5.0 (Windows)" etag="INnt2Ii99f4XNYCu-K3_" version="16.5.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-13T08:51:50.220Z" agent="5.0 (Windows)" etag="S698K9vH7pO8graKB6Ec" version="16.5.2" type="github" pages="5">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1662" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -382,8 +382,8 @@
         <mxCell id="UzZgNholBj1qXG-F6rhI-0" value="Elastic Bean Stalk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
           <mxGeometry x="170" y="258" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="O4Y0haYFvfACS0VCFvXh-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;設定&lt;/div&gt;&lt;div&gt;１．コンソール／APIの作成／更新時の指定設定&lt;/div&gt;&lt;div&gt;２．保存済み設定&lt;/div&gt;&lt;div&gt;３．アプリケーションソース上の設定ファイル（.ebextensions）&lt;/div&gt;&lt;div&gt;４．デフォルト値&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=left;verticalAlign=top;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
-          <mxGeometry x="354" y="198" width="266" height="142" as="geometry" />
+        <mxCell id="O4Y0haYFvfACS0VCFvXh-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;環境の設定（以下の優先順位）&lt;br&gt;&lt;/div&gt;&lt;div&gt;１．コンソール／APIの作成／更新時の指定設定（&lt;code&gt;.elasticbeanstalk/saved_configs/&lt;/code&gt; または Amazon S3 バケットに保存されている設定を指定可能）&lt;/div&gt;&lt;div&gt;２．保存済み設定&lt;/div&gt;&lt;div&gt;３．アプリケーションソース上の設定ファイル（.ebextensions）&lt;/div&gt;&lt;div&gt;４．デフォルト値&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=left;verticalAlign=top;spacingLeft=4;spacingBottom=4;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="400" y="110" width="266" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
