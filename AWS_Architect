@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T05:45:53.574Z" agent="5.0 (Windows)" etag="g08wQzVJAWGojUAA23a2" version="16.5.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-17T15:41:52.255Z" agent="5.0 (Windows)" etag="_eiXIXAOaUIaDQgVItrM" version="16.5.2" type="github" pages="5">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
-    <mxGraphModel dx="1662" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eMCZGGUCeoL6aTH4PVcL" name="Logger">
-    <mxGraphModel dx="1662" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="x1eHsDjAqJhIYTc2q656-0" />
         <mxCell id="x1eHsDjAqJhIYTc2q656-1" parent="x1eHsDjAqJhIYTc2q656-0" />
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kBK3Wa1cMkwrZLb60u1y" name="Codeパイプライン">
-    <mxGraphModel dx="1662" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XAEg0jdcLfFcSumQxdE7-0" />
         <mxCell id="XAEg0jdcLfFcSumQxdE7-1" parent="XAEg0jdcLfFcSumQxdE7-0" />
@@ -212,7 +212,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="smNyIKwC_0QL43vsWOlM" name="Migration:DMS">
-    <mxGraphModel dx="1662" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IVW8Lx1JuPnWkInQIhZD-0" />
         <mxCell id="IVW8Lx1JuPnWkInQIhZD-1" parent="IVW8Lx1JuPnWkInQIhZD-0" />
@@ -372,21 +372,57 @@
     </mxGraphModel>
   </diagram>
   <diagram id="D_Hv4pJ2B2xtHure_Ypn" name="Compute:EBS">
-    <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="G25F3vPvUIboPMYb62v0-0" />
         <mxCell id="G25F3vPvUIboPMYb62v0-1" parent="G25F3vPvUIboPMYb62v0-0" />
-        <mxCell id="G25F3vPvUIboPMYb62v0-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_beanstalk;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+        <mxCell id="G25F3vPvUIboPMYb62v0-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_beanstalk;" parent="G25F3vPvUIboPMYb62v0-1" vertex="1">
           <mxGeometry x="186" y="180" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="UzZgNholBj1qXG-F6rhI-0" value="Elastic Bean Stalk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+        <mxCell id="UzZgNholBj1qXG-F6rhI-0" value="Elastic Bean Stalk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="G25F3vPvUIboPMYb62v0-1" vertex="1">
           <mxGeometry x="170" y="258" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="O4Y0haYFvfACS0VCFvXh-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;環境の設定（以下の優先順位）&lt;br&gt;&lt;/div&gt;&lt;div&gt;１．コンソール／APIの作成／更新時の指定設定（&lt;code&gt;.elasticbeanstalk/saved_configs/&lt;/code&gt; または Amazon S3 バケットに保存されている設定を指定可能）&lt;/div&gt;&lt;div&gt;２．保存済み設定&lt;/div&gt;&lt;div&gt;３．アプリケーションソース上の設定ファイル（.ebextensions）&lt;/div&gt;&lt;div&gt;４．デフォルト値&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=left;verticalAlign=top;spacingLeft=4;spacingBottom=4;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
-          <mxGeometry x="400" y="110" width="266" height="170" as="geometry" />
+        <mxCell id="O4Y0haYFvfACS0VCFvXh-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;環境の設定（以下の優先順位）&lt;br&gt;&lt;/div&gt;&lt;div&gt;１．コンソール／APIの作成／更新時の指定設定（&lt;code&gt;.elasticbeanstalk/saved_configs/&lt;/code&gt; または Amazon S3 バケットに保存されている設定を指定可能）&lt;/div&gt;&lt;div&gt;２．保存済み設定&lt;/div&gt;&lt;div&gt;３．アプリケーションソース上の設定ファイル（.ebextensions）&lt;/div&gt;&lt;div&gt;４．デフォルト値&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=left;verticalAlign=top;spacingLeft=4;spacingBottom=4;" parent="G25F3vPvUIboPMYb62v0-1" vertex="1">
+          <mxGeometry x="510" y="10" width="266" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="SC-w4ljW03z0nLhl1hdq-1" value="&lt;div&gt;&lt;b&gt;アプリケーション&lt;/b&gt;&lt;/div&gt;&lt;div&gt;トップレベルの論理単位&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=center;verticalAlign=top;spacingLeft=4;spacingBottom=4;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
-          <mxGeometry x="100" y="340" width="266" height="170" as="geometry" />
+        <mxCell id="SC-w4ljW03z0nLhl1hdq-1" value="&lt;div&gt;&lt;b&gt;アプリケーション&lt;/b&gt;&lt;/div&gt;&lt;div&gt;トップレベルの論理単位&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=center;verticalAlign=top;spacingLeft=4;spacingBottom=4;" parent="G25F3vPvUIboPMYb62v0-1" vertex="1">
+          <mxGeometry x="100" y="340" width="630" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-0" value="環境" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=center;verticalAlign=top;spacingLeft=4;spacingBottom=4;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="120" y="400" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-1" value="ワーカーorウェブ" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="132.5" y="430" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-2" value="環境設定（必須）" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="132.5" y="480" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-3" value="環境設定（オプション）" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="132.5" y="530" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-4" value="環境" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=center;verticalAlign=top;spacingLeft=4;spacingBottom=4;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="330" y="400" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-5" value="ワーカーorウェブ" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="342.5" y="430" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-6" value="環境設定（必須）" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="342.5" y="480" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-7" value="環境設定（オプション）" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="342.5" y="530" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-16" value="環境" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;align=center;verticalAlign=top;spacingLeft=4;spacingBottom=4;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="540" y="400" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-17" value="ワーカーorウェブ" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="552.5" y="430" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-18" value="環境設定（必須）" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="552.5" y="480" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KcYigwWAGzzoWTwIFT9g-19" value="環境設定（オプション）" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
+          <mxGeometry x="552.5" y="530" width="145" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
