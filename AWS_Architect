@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T16:07:33.372Z" agent="5.0 (Windows)" etag="WQ6wIFY4ckvZ9pIZ_ORn" version="17.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-19T16:07:40.628Z" agent="5.0 (Windows)" etag="FunDRgl-4NHfF4rBbGll" version="17.4.5" type="github" pages="5">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -486,12 +486,6 @@
         </mxCell>
         <mxCell id="i0LfzTo_B6347Igg8c04-11" value="URL" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="G25F3vPvUIboPMYb62v0-1">
           <mxGeometry x="552.5" y="420" width="145" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="i0LfzTo_B6347Igg8c04-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="G25F3vPvUIboPMYb62v0-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="410" as="sourcePoint" />
-            <mxPoint x="740" y="360" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="i0LfzTo_B6347Igg8c04-14" value="&lt;div&gt;SWAP&lt;/div&gt;&lt;div&gt;による切替可能&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=none;endFill=1;strokeColor=#545B64;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="G25F3vPvUIboPMYb62v0-1">
           <mxGeometry width="100" relative="1" as="geometry">
