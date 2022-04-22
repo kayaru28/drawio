@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T16:07:40.628Z" agent="5.0 (Windows)" etag="FunDRgl-4NHfF4rBbGll" version="17.4.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-22T12:35:53.538Z" agent="5.0 (Windows)" etag="2SgXt7FgSohY46NsJqqC" version="17.4.5" type="github" pages="5">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kBK3Wa1cMkwrZLb60u1y" name="Codeパイプライン">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XAEg0jdcLfFcSumQxdE7-0" />
         <mxCell id="XAEg0jdcLfFcSumQxdE7-1" parent="XAEg0jdcLfFcSumQxdE7-0" />
@@ -207,6 +207,12 @@
         </mxCell>
         <mxCell id="y17C5RDgbqLERIgbyDdB-7" value="&lt;div&gt;アップロード等の&lt;/div&gt;&lt;div&gt;ビルド後の処理を記述&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="XAEg0jdcLfFcSumQxdE7-1" vertex="1">
           <mxGeometry x="935" y="670" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="noo7JNOPBtOvGJBkgF02-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XAEg0jdcLfFcSumQxdE7-1" source="noo7JNOPBtOvGJBkgF02-0" target="O-AIG3dGAroFjeWNoGT0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noo7JNOPBtOvGJBkgF02-0" value="&lt;div&gt;AWSCodeCommitFullAccess&lt;/div&gt;&lt;div&gt;AWSCodeCommitPowerUser：リポジトリ削除不可&lt;/div&gt;&lt;div&gt;AWSCodeCommitReadOnly：読み込むのみ&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="XAEg0jdcLfFcSumQxdE7-1">
+          <mxGeometry x="-320" y="339" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
