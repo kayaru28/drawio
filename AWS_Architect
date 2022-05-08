@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T04:26:36.943Z" agent="5.0 (Windows)" etag="hiZFLKd1u9jypqHsePH8" version="18.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-08T04:28:25.020Z" agent="5.0 (Windows)" etag="OuPKX4_sCsNVvE10rF-k" version="18.0.1" type="github" pages="8">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -439,7 +439,7 @@
         <mxCell id="jdmPjAQ4KOzweMEnhje--40" value="&lt;div&gt;the minimum number of healthy instances for the deployment&lt;/div&gt;&lt;div&gt;0%&amp;nbsp;&amp;nbsp; = All at once&lt;/div&gt;&lt;div&gt;50% = Half&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1440" y="1780" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jdmPjAQ4KOzweMEnhje--41" value="&lt;span&gt;Canary&lt;/span&gt;/Linear/All-at-once" style="text;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="jdmPjAQ4KOzweMEnhje--41" value="&lt;div&gt;&lt;span&gt;Canary&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Linear&lt;/div&gt;&lt;div&gt;All-at-once&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1440" y="1890" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jdmPjAQ4KOzweMEnhje--42" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.external_sdk;" parent="1" vertex="1">
