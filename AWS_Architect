@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T10:41:42.448Z" agent="5.0 (Windows)" etag="2CqrhwkSsGz-sY9cUezr" version="18.0.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-08T10:42:02.110Z" agent="5.0 (Windows)" etag="XdenNzWQruhtu1qcMWvT" version="18.0.1" type="github" pages="9">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,8 +295,8 @@
             <mxPoint x="400" y="199.93645484949832" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o6L5tIk4eV5dFWlILU_p-6" value="copyすると変換される" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="420" y="238" width="140" height="20" as="geometry" />
+        <mxCell id="o6L5tIk4eV5dFWlILU_p-6" value="&lt;div&gt;コピー（リージョン内／リージョン間）&lt;br&gt;&lt;/div&gt;&lt;div&gt;すると変換される&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="233" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o6L5tIk4eV5dFWlILU_p-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_account;" vertex="1" parent="1">
           <mxGeometry x="810" y="150" width="74" height="78" as="geometry" />
