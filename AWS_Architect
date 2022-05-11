@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T14:50:44.758Z" agent="5.0 (Windows)" etag="H5FM8ZL6vX0pU2Es36b8" version="18.0.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-11T14:51:02.065Z" agent="5.0 (Windows)" etag="AgbE21gZX_vH6Kpi4sx6" version="18.0.2" type="github" pages="9">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -381,7 +381,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o6L5tIk4eV5dFWlILU_p-29" value="自動取得・管理" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#0000FF;" parent="1" source="o6L5tIk4eV5dFWlILU_p-23" target="o6L5tIk4eV5dFWlILU_p-15" edge="1">
+        <mxCell id="o6L5tIk4eV5dFWlILU_p-29" value="自動取得・管理" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;" parent="1" source="o6L5tIk4eV5dFWlILU_p-23" target="o6L5tIk4eV5dFWlILU_p-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="719.9974257425743" as="sourcePoint" />
             <mxPoint x="391.8499704666274" y="721.494785283608" as="targetPoint" />
