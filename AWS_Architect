@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T14:51:02.065Z" agent="5.0 (Windows)" etag="AgbE21gZX_vH6Kpi4sx6" version="18.0.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-15T07:24:34.611Z" agent="5.0 (Windows)" etag="2nIMM_WkikAWt9jpYb1X" version="18.0.3" type="github" pages="10">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1196,6 +1196,20 @@
             <mxPoint x="380" y="604.9992913385828" as="sourcePoint" />
             <mxPoint x="947" y="542.3221259842522" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hmh_Cp7Zu-MYDO26buCk" name="SystemsManager">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gAUwASsu9Ew8xFDlXox9-1" value="&lt;div style=&quot;font-size: 17px;&quot; align=&quot;left&quot;&gt;Patch Manager&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="75" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gAUwASsu9Ew8xFDlXox9-2" value="&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-patch.html&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;セキュリティ関連のアップデートと他のタイプのアップデートの両方で&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;マネージドノードにパッチを適用するプロセスを自動化&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="500" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
