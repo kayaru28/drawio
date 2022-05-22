@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T17:05:21.364Z" agent="5.0 (Windows)" etag="4azsev8zIdRhxZuacnJc" version="18.0.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-05-22T14:49:18.784Z" agent="5.0 (Windows)" etag="dLzHdNnGl_VSV5gGBsk3" version="18.0.4" type="github" pages="10">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1205,11 +1205,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H6qFnDCH13e9E92kg_We-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="76" width="860" height="84" as="geometry" />
+        </mxCell>
         <mxCell id="gAUwASsu9Ew8xFDlXox9-1" value="&lt;div style=&quot;font-size: 17px;&quot; align=&quot;left&quot;&gt;Patch Manager&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="10" y="75" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gAUwASsu9Ew8xFDlXox9-2" value="&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-patch.html&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;セキュリティ関連のアップデートと他のタイプのアップデートの両方で&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;マネージドノードにパッチを適用するプロセスを自動化&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="60" y="90" width="500" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H6qFnDCH13e9E92kg_We-2" value="どのタイミングで" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="280" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="H6qFnDCH13e9E92kg_We-3" value="どのパッチを" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="280" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="H6qFnDCH13e9E92kg_We-4" value="どのサーバに対して" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="190" width="280" height="84" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
