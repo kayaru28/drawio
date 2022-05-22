@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T14:49:18.784Z" agent="5.0 (Windows)" etag="dLzHdNnGl_VSV5gGBsk3" version="18.0.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-05-22T14:52:49.841Z" agent="5.0 (Windows)" etag="nOUakCuH_vRBTlj2N7H2" version="18.0.4" type="github" pages="10">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1201,7 +1201,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hmh_Cp7Zu-MYDO26buCk" name="SystemsManager">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1222,6 +1222,24 @@
         </mxCell>
         <mxCell id="H6qFnDCH13e9E92kg_We-4" value="どのサーバに対して" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="190" width="280" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="H6qFnDCH13e9E92kg_We-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-5" target="H6qFnDCH13e9E92kg_We-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6qFnDCH13e9E92kg_We-5" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.systems_manager;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="260" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="H6qFnDCH13e9E92kg_We-7" value="メンテナンスウィンドウ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="310" width="280" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="H6qFnDCH13e9E92kg_We-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-5" target="H6qFnDCH13e9E92kg_We-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-152" y="309" as="sourcePoint" />
+            <mxPoint x="20" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6qFnDCH13e9E92kg_We-9" value="System Manager" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="338" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
