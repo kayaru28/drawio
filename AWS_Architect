@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T14:41:21.985Z" agent="5.0 (Windows)" etag="TG0XG0DttnYQh2988lZ6" version="18.1.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-05-29T15:23:03.420Z" agent="5.0 (Windows)" etag="COVP4oaS8MB_Jtz9Us_3" version="18.1.1" type="github" pages="10">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1205,17 +1205,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BGLUr9xeajDfvqEzf6Vt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-1" target="H6qFnDCH13e9E92kg_We-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BGLUr9xeajDfvqEzf6Vt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-1" target="H6qFnDCH13e9E92kg_We-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BGLUr9xeajDfvqEzf6Vt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-1" target="H6qFnDCH13e9E92kg_We-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="H6qFnDCH13e9E92kg_We-1" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="76" width="860" height="84" as="geometry" />
+          <mxGeometry x="10" y="76" width="950" height="354" as="geometry" />
         </mxCell>
         <mxCell id="gAUwASsu9Ew8xFDlXox9-1" value="&lt;div style=&quot;font-size: 17px;&quot; align=&quot;left&quot;&gt;Patch Manager&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="10" y="75" width="140" height="30" as="geometry" />
@@ -1223,17 +1214,22 @@
         <mxCell id="gAUwASsu9Ew8xFDlXox9-2" value="&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-patch.html&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;セキュリティ関連のアップデートと他のタイプのアップデートの両方で&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot; align=&quot;left&quot;&gt;マネージドノードにパッチを適用するプロセスを自動化&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="60" y="90" width="500" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BGLUr9xeajDfvqEzf6Vt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-2" target="H6qFnDCH13e9E92kg_We-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BGLUr9xeajDfvqEzf6Vt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-2" target="H6qFnDCH13e9E92kg_We-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="470" />
+              <mxPoint x="150" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="H6qFnDCH13e9E92kg_We-2" value="どのタイミングで" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="220" width="280" height="40" as="geometry" />
+          <mxGeometry x="340" y="220" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BGLUr9xeajDfvqEzf6Vt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-3" target="BGLUr9xeajDfvqEzf6Vt-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H6qFnDCH13e9E92kg_We-3" value="どのパッチを" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="220" width="280" height="40" as="geometry" />
+          <mxGeometry x="40" y="220" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BGLUr9xeajDfvqEzf6Vt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H6qFnDCH13e9E92kg_We-4" target="BGLUr9xeajDfvqEzf6Vt-6">
           <mxGeometry relative="1" as="geometry" />
@@ -1245,7 +1241,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H6qFnDCH13e9E92kg_We-4" value="どのサーバに対して" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="220" width="280" height="40" as="geometry" />
+          <mxGeometry x="640" y="220" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H6qFnDCH13e9E92kg_We-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H6qFnDCH13e9E92kg_We-5" target="H6qFnDCH13e9E92kg_We-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1254,9 +1250,9 @@
           <mxGeometry x="-240" y="260" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="H6qFnDCH13e9E92kg_We-7" value="メンテナンスウィンドウ" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="310" width="280" height="84" as="geometry" />
+          <mxGeometry x="10" y="550" width="280" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="H6qFnDCH13e9E92kg_We-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H6qFnDCH13e9E92kg_We-5" target="H6qFnDCH13e9E92kg_We-7" edge="1">
+        <mxCell id="H6qFnDCH13e9E92kg_We-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H6qFnDCH13e9E92kg_We-5" target="H6qFnDCH13e9E92kg_We-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-152" y="309" as="sourcePoint" />
             <mxPoint x="20" y="128" as="targetPoint" />
@@ -1265,17 +1261,26 @@
         <mxCell id="H6qFnDCH13e9E92kg_We-9" value="System Manager" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="-260" y="338" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BGLUr9xeajDfvqEzf6Vt-5" value="&lt;div&gt;パッチベースライン&lt;/div&gt;&lt;div&gt;対象OS／製品／重要度／リリースされてからパッチ承認までの待機日数&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="310" width="280" height="84" as="geometry" />
+        <mxCell id="BGLUr9xeajDfvqEzf6Vt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.282;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="BGLUr9xeajDfvqEzf6Vt-5" target="H6qFnDCH13e9E92kg_We-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BGLUr9xeajDfvqEzf6Vt-6" value="インスタンスタグ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="310" width="90" height="84" as="geometry" />
+        <mxCell id="BGLUr9xeajDfvqEzf6Vt-5" value="&lt;div&gt;パッチベースライン&lt;/div&gt;&lt;div&gt;対象OS／製品／重要度／リリースされてからパッチ承認までの待機日数&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="280" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="BGLUr9xeajDfvqEzf6Vt-6" value="インスタンス&lt;br&gt;タグ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="90" height="84" as="geometry" />
         </mxCell>
         <mxCell id="BGLUr9xeajDfvqEzf6Vt-7" value="インスタンス&lt;br&gt;手動設定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="310" width="90" height="84" as="geometry" />
+          <mxGeometry x="830" y="310" width="90" height="84" as="geometry" />
         </mxCell>
         <mxCell id="BGLUr9xeajDfvqEzf6Vt-8" value="パッチグループ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="685" y="310" width="90" height="84" as="geometry" />
+          <mxGeometry x="735" y="310" width="90" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="BGLUr9xeajDfvqEzf6Vt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.046;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="BGLUr9xeajDfvqEzf6Vt-5" target="H6qFnDCH13e9E92kg_We-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="362" as="sourcePoint" />
+            <mxPoint x="428.96000000000004" y="269" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
