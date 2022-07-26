@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T14:28:54.925Z" agent="5.0 (Windows)" etag="dlPqxOduhxL6ZXEeOE4q" version="18.1.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-07-26T14:45:38.115Z" agent="5.0 (Windows)" etag="Ad7d3PF4ZadxyRstLUKV" version="18.1.3" type="github" pages="11">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1286,7 +1286,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1g2zg9L1lEkFqRAURlZY" name="Database">
-    <mxGraphModel dx="1475" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1041" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1301,6 +1301,52 @@
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-6" value="Aurora" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="32" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ryOj9puT9vEHTZXv41So-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-16" value="同一リージョン&lt;br&gt;リードレプリカ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ryOj9puT9vEHTZXv41So-11">
+          <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ryOj9puT9vEHTZXv41So-7" target="ryOj9puT9vEHTZXv41So-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-17" value="異リージョン&lt;br&gt;リードレプリカ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ryOj9puT9vEHTZXv41So-15">
+          <mxGeometry x="0.0707" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" vertex="1" parent="1">
+          <mxGeometry x="414" y="150" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ryOj9puT9vEHTZXv41So-8" target="ryOj9puT9vEHTZXv41So-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-10" value="リードレプリカを作成可能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ryOj9puT9vEHTZXv41So-9">
+          <mxGeometry x="0.153" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-8" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
+          <mxGeometry x="108" y="150" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-12" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" vertex="1" parent="1">
+          <mxGeometry x="650" y="150" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-13" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" vertex="1" parent="1">
+          <mxGeometry x="650" y="260" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-18" value="AuroraグローバルDB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="240" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
