@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T14:52:59.788Z" agent="5.0 (Windows)" etag="W9Iyv-Hhy4oe4al65qzJ" version="18.1.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-07-26T14:53:21.709Z" agent="5.0 (Windows)" etag="ZPEfe9kHRW7z7Y0ygXvq" version="18.1.3" type="github" pages="11">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1291,7 +1291,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ryOj9puT9vEHTZXv41So-29" value="&lt;div&gt;最大5まで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="280" width="350" height="150" as="geometry" />
+          <mxGeometry x="-30" y="280" width="360" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-19" value="&lt;div&gt;最大15まで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="370" y="280" width="310" height="150" as="geometry" />
@@ -1391,6 +1391,9 @@
           <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
             <mxPoint x="-22" y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-30" value="SQL Serverは対象外" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
