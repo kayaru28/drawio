@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T16:43:22.405Z" agent="5.0 (Windows)" etag="_ieYEfaIG1c90MoZTi0u" version="18.1.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-07-26T14:28:54.925Z" agent="5.0 (Windows)" etag="dlPqxOduhxL6ZXEeOE4q" version="18.1.3" type="github" pages="11">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1281,6 +1281,26 @@
             <mxPoint x="330" y="362" as="sourcePoint" />
             <mxPoint x="428.96000000000004" y="269" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1g2zg9L1lEkFqRAURlZY" name="Database">
+    <mxGraphModel dx="1475" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ryOj9puT9vEHTZXv41So-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aurora;" vertex="1" parent="1">
+          <mxGeometry x="310" y="52" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="1">
+          <mxGeometry x="30" y="52" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-5" value="Amazon RDS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="24" y="29" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ryOj9puT9vEHTZXv41So-6" value="Aurora" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="32" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
