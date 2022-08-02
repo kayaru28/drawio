@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T15:50:16.457Z" agent="5.0 (Windows)" etag="t-g3nAlkU30dWHXQQBLs" version="20.2.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-08-02T05:10:13.566Z" agent="5.0 (Windows)" etag="sm0ly-2wF9pQnA9dFvqg" version="20.2.2" type="github" pages="11">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1286,7 +1286,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1g2zg9L1lEkFqRAURlZY" name="Database">
-    <mxGraphModel dx="2858" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3015" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1297,19 +1297,19 @@
           <mxGeometry x="-370" y="430" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iU-7s_IVVoofqYMUaUv7-3" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-70" y="130" width="800" height="340" as="geometry" />
+          <mxGeometry x="-70" y="130" width="970" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="iU-7s_IVVoofqYMUaUv7-2" value="&lt;div&gt;リードレプリカ&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry width="800" height="340" as="geometry" />
+        <mxCell id="iU-7s_IVVoofqYMUaUv7-2" value="冗長化" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
+          <mxGeometry width="970" height="340" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-29" value="&lt;div&gt;最大5まで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="40" y="150" width="360" height="150" as="geometry" />
+          <mxGeometry x="240" y="150" width="350" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-19" value="&lt;div&gt;最大15まで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="440" y="150" width="310" height="150" as="geometry" />
+          <mxGeometry x="622.09" y="150" width="310" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="554" y="20" width="78" height="78" as="geometry" />
+          <mxGeometry x="736.09" y="20" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iU-7s_IVVoofqYMUaUv7-3" source="ryOj9puT9vEHTZXv41So-8" target="ryOj9puT9vEHTZXv41So-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1319,18 +1319,31 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OFVTjxYLvksv3nPwQt4P-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iU-7s_IVVoofqYMUaUv7-3" source="ryOj9puT9vEHTZXv41So-8" target="OFVTjxYLvksv3nPwQt4P-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="130" />
+              <mxPoint x="89" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OFVTjxYLvksv3nPwQt4P-7" value="&lt;div&gt;マルチーAZ&lt;/div&gt;&lt;div&gt;クラスタ&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OFVTjxYLvksv3nPwQt4P-6">
+          <mxGeometry x="0.6276" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-8" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="178" y="20" width="78" height="78" as="geometry" />
+          <mxGeometry x="210" y="20" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-12" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="650" y="182" width="78" height="78" as="geometry" />
+          <mxGeometry x="832.09" y="182" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iU-7s_IVVoofqYMUaUv7-3" source="ryOj9puT9vEHTZXv41So-7" target="ryOj9puT9vEHTZXv41So-12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="790" y="59" as="targetPoint" />
+            <mxPoint x="972.09" y="59" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="593" y="130" />
-              <mxPoint x="689" y="130" />
+              <mxPoint x="775.09" y="130" />
+              <mxPoint x="871.09" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1340,13 +1353,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-13" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="455" y="180" width="78" height="78" as="geometry" />
+          <mxGeometry x="637.09" y="180" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iU-7s_IVVoofqYMUaUv7-3" source="ryOj9puT9vEHTZXv41So-7" target="ryOj9puT9vEHTZXv41So-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="593" y="130" />
-              <mxPoint x="494" y="130" />
+              <mxPoint x="775.09" y="130" />
+              <mxPoint x="676.09" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1356,25 +1369,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-18" value="AuroraグローバルDB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="450" y="260" width="130" height="20" as="geometry" />
+          <mxGeometry x="632.09" y="260" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-22" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="70" y="180" width="78" height="78" as="geometry" />
+          <mxGeometry x="250" y="180" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-23" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="280" y="180" width="78" height="78" as="geometry" />
+          <mxGeometry x="460" y="180" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iU-7s_IVVoofqYMUaUv7-3" source="ryOj9puT9vEHTZXv41So-8" target="ryOj9puT9vEHTZXv41So-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="217" y="130" />
-              <mxPoint x="319" y="130" />
+              <mxPoint x="249" y="130" />
+              <mxPoint x="499" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-28" value="&lt;div&gt;クロスリージョン&lt;/div&gt;&lt;div&gt;リードレプリカ&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-27" vertex="1" connectable="0">
           <mxGeometry x="0.1309" y="-1" relative="1" as="geometry">
-            <mxPoint x="-19" as="offset" />
+            <mxPoint x="108" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iU-7s_IVVoofqYMUaUv7-3" source="ryOj9puT9vEHTZXv41So-8" target="ryOj9puT9vEHTZXv41So-22" edge="1">
@@ -1382,18 +1395,21 @@
             <mxPoint x="454" y="204" as="targetPoint" />
             <mxPoint x="358.0000000000002" y="120" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="217" y="130" />
-              <mxPoint x="100" y="130" />
+              <mxPoint x="250" y="130" />
+              <mxPoint x="290" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-26" value="同一リージョン&lt;br&gt;リードレプリカ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-25" vertex="1" connectable="0">
           <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
-            <mxPoint x="-22" y="1" as="offset" />
+            <mxPoint x="64" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-30" value="SQL Serverは対象外" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="270" y="260" width="130" height="20" as="geometry" />
+          <mxGeometry x="450" y="260" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OFVTjxYLvksv3nPwQt4P-3" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="iU-7s_IVVoofqYMUaUv7-3">
+          <mxGeometry x="50" y="180" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="iU-7s_IVVoofqYMUaUv7-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ryOj9puT9vEHTZXv41So-3" target="iU-7s_IVVoofqYMUaUv7-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
