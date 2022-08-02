@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T05:10:13.566Z" agent="5.0 (Windows)" etag="sm0ly-2wF9pQnA9dFvqg" version="20.2.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-08-02T06:52:52.551Z" agent="5.0 (Windows)" etag="-QXMSC-_yiq4XYphkCpr" version="20.2.2" type="github" pages="11">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1286,7 +1286,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1g2zg9L1lEkFqRAURlZY" name="Database">
-    <mxGraphModel dx="3015" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2064" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1297,16 +1297,16 @@
           <mxGeometry x="-370" y="430" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iU-7s_IVVoofqYMUaUv7-3" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-70" y="130" width="970" height="340" as="geometry" />
+          <mxGeometry x="-70" y="130" width="990" height="340" as="geometry" />
         </mxCell>
         <mxCell id="iU-7s_IVVoofqYMUaUv7-2" value="冗長化" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry width="970" height="340" as="geometry" />
+          <mxGeometry width="990" height="340" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-29" value="&lt;div&gt;最大5まで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
           <mxGeometry x="240" y="150" width="350" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ryOj9puT9vEHTZXv41So-19" value="&lt;div&gt;最大15まで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
-          <mxGeometry x="622.09" y="150" width="310" height="150" as="geometry" />
+        <mxCell id="ryOj9puT9vEHTZXv41So-19" value="&lt;div&gt;最大15まで、最新のやつはスタンドアロンに変えないと削除不可&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
+          <mxGeometry x="622.09" y="150" width="357.91" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" parent="iU-7s_IVVoofqYMUaUv7-3" vertex="1">
           <mxGeometry x="736.09" y="20" width="78" height="78" as="geometry" />
