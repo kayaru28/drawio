@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T09:51:37.280Z" agent="5.0 (Windows)" etag="7nkrElfZnmJo5Jn7o_N4" version="20.2.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-08-09T11:48:02.531Z" agent="5.0 (Windows)" etag="2pjF3njSSxgxyFTSMWhz" version="20.2.2" type="github" pages="11">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1295,7 +1295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1g2zg9L1lEkFqRAURlZY" name="Database：RDS">
-    <mxGraphModel dx="5325" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3903" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1551,6 +1551,9 @@
         </mxCell>
         <mxCell id="BxKlL8qb_SvTgmKugrMS-11" value="カスタマイズ" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" vertex="1" parent="1">
           <mxGeometry x="-830" y="250" width="140" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-12" value="1つのスタンバイを備えた Amazon RDS マルチAZ&#xa;2つの読み取り可能なスタンバイを備えた Amazon RDS マルチAZ" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="388" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
