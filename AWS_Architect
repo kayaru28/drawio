@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T11:48:02.531Z" agent="5.0 (Windows)" etag="2pjF3njSSxgxyFTSMWhz" version="20.2.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-08-12T09:52:45.999Z" agent="5.0 (Windows)" etag="vkxdONRVJL0p8WLOBoA5" version="20.2.3" type="github" pages="11">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1399,7 +1399,7 @@
           <mxGeometry x="-70" y="130" width="1140" height="340" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-29" value="&lt;div&gt;最大5まで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="170" y="280" width="350" height="150" as="geometry" />
+          <mxGeometry x="160" y="280" width="380" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ryOj9puT9vEHTZXv41So-19" value="&lt;div&gt;最大15まで、最新のやつはスタンドアロンに変えないと削除不可&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="552.09" y="280" width="357.91" height="150" as="geometry" />
@@ -1423,7 +1423,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OFVTjxYLvksv3nPwQt4P-7" value="&lt;div&gt;マルチーAZ&lt;/div&gt;&lt;div&gt;クラスタ&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OFVTjxYLvksv3nPwQt4P-6" vertex="1" connectable="0">
+        <mxCell id="OFVTjxYLvksv3nPwQt4P-7" value="&lt;div&gt;マルチーAZクラスタ&lt;/div&gt;&lt;div&gt;リアルタイム同期&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OFVTjxYLvksv3nPwQt4P-6" vertex="1" connectable="0">
           <mxGeometry x="0.6276" y="-3" relative="1" as="geometry">
             <mxPoint x="3" y="15" as="offset" />
           </mxGeometry>
@@ -1481,7 +1481,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ryOj9puT9vEHTZXv41So-28" value="&lt;div&gt;クロスリージョン&lt;/div&gt;&lt;div&gt;リードレプリカ&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-27" vertex="1" connectable="0">
+        <mxCell id="ryOj9puT9vEHTZXv41So-28" value="&lt;div&gt;クロスリージョンリードレプリカ&lt;/div&gt;&lt;div&gt;準リアルタイム同期&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-27" vertex="1" connectable="0">
           <mxGeometry x="0.1309" y="-1" relative="1" as="geometry">
             <mxPoint x="108" y="19" as="offset" />
           </mxGeometry>
@@ -1496,7 +1496,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ryOj9puT9vEHTZXv41So-26" value="同一リージョン&lt;br&gt;リードレプリカ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-25" vertex="1" connectable="0">
+        <mxCell id="ryOj9puT9vEHTZXv41So-26" value="&lt;div&gt;同一リージョンリードレプリカ&lt;/div&gt;&lt;div&gt;準リアルタイム同期&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-25" vertex="1" connectable="0">
           <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
             <mxPoint x="64" y="21" as="offset" />
           </mxGeometry>
@@ -1525,34 +1525,34 @@
             <mxPoint x="175" y="23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-1" value="パラメータ" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-1" value="パラメータ" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-1750" y="130" width="1140" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ryOj9puT9vEHTZXv41So-3" target="BxKlL8qb_SvTgmKugrMS-1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ryOj9puT9vEHTZXv41So-3" target="BxKlL8qb_SvTgmKugrMS-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-276" y="492.92363636363643" as="sourcePoint" />
             <mxPoint x="-60" y="442.6545454545453" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-5" value="&lt;div align=&quot;center&quot;&gt;パラメータグループ&lt;br&gt;&lt;br&gt;&lt;/div&gt;データベースエンジンに対するパラメータ設定&lt;br&gt;付け替えには再起動が必要" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" vertex="1" parent="1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-5" value="&lt;div align=&quot;center&quot;&gt;パラメータグループ&lt;br&gt;&lt;br&gt;&lt;/div&gt;データベースエンジンに対するパラメータ設定&lt;br&gt;付け替えには再起動が必要" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="-1680" y="160" width="480" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-7" value="&lt;div align=&quot;center&quot;&gt;オプショングループ&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;タイムゾーンなどの各エンジンに対応する追加機能&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" vertex="1" parent="1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-7" value="&lt;div align=&quot;center&quot;&gt;オプショングループ&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;タイムゾーンなどの各エンジンに対応する追加機能&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="-1140" y="160" width="480" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-8" value="&lt;div&gt;デフォルト&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;変更ができない&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" vertex="1" parent="1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-8" value="&lt;div&gt;デフォルト&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;変更ができない&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="-1640" y="250" width="140" height="172" as="geometry" />
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-9" value="カスタマイズ&lt;br&gt;&lt;br&gt;変更可能&lt;br&gt;静的パラメータの場合に&lt;br&gt;反映には再起動が必要" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" vertex="1" parent="1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-9" value="カスタマイズ&lt;br&gt;&lt;br&gt;変更可能&lt;br&gt;静的パラメータの場合に&lt;br&gt;反映には再起動が必要" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="-1410" y="250" width="140" height="172" as="geometry" />
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-10" value="&lt;div&gt;デフォルト&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;中身は空&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" vertex="1" parent="1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-10" value="&lt;div&gt;デフォルト&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;中身は空&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="-1060" y="250" width="140" height="172" as="geometry" />
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-11" value="カスタマイズ" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" vertex="1" parent="1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-11" value="カスタマイズ" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;align=center;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="-830" y="250" width="140" height="172" as="geometry" />
         </mxCell>
-        <mxCell id="BxKlL8qb_SvTgmKugrMS-12" value="1つのスタンバイを備えた Amazon RDS マルチAZ&#xa;2つの読み取り可能なスタンバイを備えた Amazon RDS マルチAZ" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BxKlL8qb_SvTgmKugrMS-12" value="1つのスタンバイを備えた Amazon RDS マルチAZ&#xa;2つの読み取り可能なスタンバイを備えた Amazon RDS マルチAZ" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="388" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
