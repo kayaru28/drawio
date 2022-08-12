@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T09:52:45.999Z" agent="5.0 (Windows)" etag="vkxdONRVJL0p8WLOBoA5" version="20.2.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-08-12T10:07:41.506Z" agent="5.0 (Windows)" etag="kVr3EQRTuI_rkz466wHF" version="20.2.3" type="github" pages="11">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1423,7 +1423,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OFVTjxYLvksv3nPwQt4P-7" value="&lt;div&gt;マルチーAZクラスタ&lt;/div&gt;&lt;div&gt;リアルタイム同期&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OFVTjxYLvksv3nPwQt4P-6" vertex="1" connectable="0">
+        <mxCell id="OFVTjxYLvksv3nPwQt4P-7" value="&lt;div&gt;マルチーAZクラスタ&lt;/div&gt;&lt;div&gt;（リアルタイム同期）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OFVTjxYLvksv3nPwQt4P-6" vertex="1" connectable="0">
           <mxGeometry x="0.6276" y="-3" relative="1" as="geometry">
             <mxPoint x="3" y="15" as="offset" />
           </mxGeometry>
@@ -1481,7 +1481,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ryOj9puT9vEHTZXv41So-28" value="&lt;div&gt;クロスリージョンリードレプリカ&lt;/div&gt;&lt;div&gt;準リアルタイム同期&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-27" vertex="1" connectable="0">
+        <mxCell id="ryOj9puT9vEHTZXv41So-28" value="&lt;div&gt;クロスリージョンリードレプリカ&lt;/div&gt;&lt;div&gt;（準リアルタイム同期）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-27" vertex="1" connectable="0">
           <mxGeometry x="0.1309" y="-1" relative="1" as="geometry">
             <mxPoint x="108" y="19" as="offset" />
           </mxGeometry>
@@ -1496,7 +1496,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ryOj9puT9vEHTZXv41So-26" value="&lt;div&gt;同一リージョンリードレプリカ&lt;/div&gt;&lt;div&gt;準リアルタイム同期&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-25" vertex="1" connectable="0">
+        <mxCell id="ryOj9puT9vEHTZXv41So-26" value="&lt;div&gt;同一リージョンリードレプリカ&lt;/div&gt;&lt;div&gt;（準リアルタイム同期）&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ryOj9puT9vEHTZXv41So-25" vertex="1" connectable="0">
           <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
             <mxPoint x="64" y="21" as="offset" />
           </mxGeometry>
