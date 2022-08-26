@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T15:39:16.058Z" agent="5.0 (Windows)" etag="pyxcdaSI-_tALO2lJubp" version="20.2.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-08-26T16:04:14.304Z" agent="5.0 (Windows)" etag="qhSeYJ-Mh8_DYVin1QGl" version="20.2.7" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1721,6 +1721,14 @@
         <mxCell id="92QCGaXm5kGFLZLm2mqX-1" value="対応マップを作成する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="105" width="140" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eO8OdskQTUy68wg4uGHE" name="Database:ElastiCache">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
