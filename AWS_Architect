@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T16:07:22.544Z" agent="5.0 (Windows)" etag="U_QiNjtGqSf3uhFPiuW6" version="20.2.7" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-09-01T10:58:02.570Z" agent="5.0 (Windows)" etag="U_b3nr5-LgtRq_kQzH_V" version="20.2.7" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1722,7 +1722,7 @@
           <mxGeometry x="140" y="105" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s3ifptYd_liqXJs3RLrP-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="157" y="210" width="563" height="660" as="geometry" />
+          <mxGeometry x="157" y="200" width="563" height="660" as="geometry" />
         </mxCell>
         <mxCell id="s3ifptYd_liqXJs3RLrP-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s3ifptYd_liqXJs3RLrP-1" vertex="1">
           <mxGeometry width="563" height="40" as="geometry" />
@@ -1770,25 +1770,25 @@
             <mxRectangle width="150" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gasJrQ6BfSPZN5V8yc2m-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s3ifptYd_liqXJs3RLrP-1">
+        <mxCell id="gasJrQ6BfSPZN5V8yc2m-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s3ifptYd_liqXJs3RLrP-1" vertex="1">
           <mxGeometry y="160" width="563" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gasJrQ6BfSPZN5V8yc2m-7" value="コンフィギュレーション" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="gasJrQ6BfSPZN5V8yc2m-6">
+        <mxCell id="gasJrQ6BfSPZN5V8yc2m-7" value="コンフィギュレーション" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="gasJrQ6BfSPZN5V8yc2m-6" vertex="1">
           <mxGeometry width="113" height="120" as="geometry">
             <mxRectangle width="113" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gasJrQ6BfSPZN5V8yc2m-8" value="パラメーターグループによる共通設定" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="gasJrQ6BfSPZN5V8yc2m-6">
+        <mxCell id="gasJrQ6BfSPZN5V8yc2m-8" value="パラメーターグループによる共通設定&lt;br&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="gasJrQ6BfSPZN5V8yc2m-6" vertex="1">
           <mxGeometry x="113" width="150" height="120" as="geometry">
             <mxRectangle width="150" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gasJrQ6BfSPZN5V8yc2m-9" value="パラメーターグループによる共通設定" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="gasJrQ6BfSPZN5V8yc2m-6">
+        <mxCell id="gasJrQ6BfSPZN5V8yc2m-9" value="パラメーターグループによる共通設定&lt;br&gt;サブネットグループによるデプロイNW／AZ制御" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="gasJrQ6BfSPZN5V8yc2m-6" vertex="1">
           <mxGeometry x="263" width="150" height="120" as="geometry">
             <mxRectangle width="150" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gasJrQ6BfSPZN5V8yc2m-10" value="&lt;div&gt;テーブル単位で設定可能&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="gasJrQ6BfSPZN5V8yc2m-6">
+        <mxCell id="gasJrQ6BfSPZN5V8yc2m-10" value="&lt;div&gt;テーブル単位で設定可能&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="gasJrQ6BfSPZN5V8yc2m-6" vertex="1">
           <mxGeometry x="413" width="150" height="120" as="geometry">
             <mxRectangle width="150" height="120" as="alternateBounds" />
           </mxGeometry>
