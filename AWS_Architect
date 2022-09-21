@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T11:20:15.489Z" agent="5.0 (Windows)" etag="KXdVkdXD0x3ID3xdwnib" version="20.2.8" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-09-21T13:46:48.323Z" agent="5.0 (Windows)" etag="mFckGw46dBNTASiUItAs" version="20.2.8" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1714,7 +1714,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WcDDGY9nwoC4_3tmSlL_" name="Database：Overall">
-    <mxGraphModel dx="727" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1852,7 +1852,7 @@
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s3ifptYd_liqXJs3RLrP-21" value="1台のマスターに対して5台のレプリカを作成" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="s3ifptYd_liqXJs3RLrP-18" vertex="1">
+        <mxCell id="s3ifptYd_liqXJs3RLrP-21" value="&lt;div&gt;不可&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="s3ifptYd_liqXJs3RLrP-18" vertex="1">
           <mxGeometry x="263" width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1962,6 +1962,36 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B3gN14au7ekUI-eo49rT-1" value="クラスター" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-2" value="ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="364" y="310" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-3" value="ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-5" target="B3gN14au7ekUI-eo49rT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-5" value="パラメーターグループ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-6" value="&lt;div&gt;デフォルト&lt;/div&gt;&lt;div&gt;（変更不可）&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="174" y="100" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-7" value="カスタム" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.723;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-8" target="B3gN14au7ekUI-eo49rT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-8" value="サブネットグループ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-9" value="カスタム" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="96" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
