@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-24T16:18:59.295Z" agent="5.0 (Windows)" etag="nNk2DXRB2RCBzW4TZrrs" version="20.2.8" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-09-24T16:27:26.113Z" agent="5.0 (Windows)" etag="Lr8uPFQklDPyGuIcYYnf" version="20.2.8" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1962,7 +1962,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="B3gN14au7ekUI-eo49rT-1" value="クラスター" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="B3gN14au7ekUI-eo49rT-1" value="クラスター（マルチAZ可能）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="330" y="310" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-2" value="ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -2071,6 +2071,12 @@
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-31" value="Memcached" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="20" y="35" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-32" value="クラスターに対して書き込まれたデータをシャーディング" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="354" y="378" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-33" value="障害の自動復旧はなし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="75" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
