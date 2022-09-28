@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-24T16:27:26.113Z" agent="5.0 (Windows)" etag="Lr8uPFQklDPyGuIcYYnf" version="20.2.8" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-09-28T16:13:08.587Z" agent="5.0 (Windows)" etag="2krtGB6GL-p7jn_7lBuw" version="20.2.8" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1958,11 +1958,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eO8OdskQTUy68wg4uGHE" name="Database:ElastiCache">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="B3gN14au7ekUI-eo49rT-1" value="クラスター（マルチAZ可能）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="B3gN14au7ekUI-eo49rT-1" value="クラスター（マルチAZ可能、最大デフォルト40）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="330" y="310" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-2" value="ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -2060,9 +2060,7 @@
         <mxCell id="B3gN14au7ekUI-eo49rT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-28" target="B3gN14au7ekUI-eo49rT-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="765" y="270" />
-              <mxPoint x="655" y="270" />
-              <mxPoint x="655" y="330" />
+              <mxPoint x="765" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2077,6 +2075,9 @@
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-33" value="障害の自動復旧はなし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="40" y="75" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-34" value="キャッシュノードの障害の自動検出と復旧。&#xa;&#xa;マルチ AZを実現するリードレプリカへのレプリケーション機能&#xa;&#xa;Redis (クラスターモードが有効) では、最大 500 個のシャード間でのデータの分割がサポート&#xa;&#xa;&#xa;&#xa;&#xa;&amp;nbsp;&amp;nbsp;&amp;nbsp; 耐障害性向上のためのノードとクラスターのアベイラビリティーゾーンの柔軟な配置。&#xa;&#xa;&amp;nbsp;&#xa;&amp;nbsp;&amp;nbsp;&amp;nbsp; ElastiCache for Redis では、バックアップ、ソフトウェアパッチ、自動的な障害検出、および復旧を管理します。&#xa;&#xa;&amp;nbsp;&amp;nbsp;&amp;nbsp; 必要なときに自動バックアップを実行できます。または、手動で独自のバックアップスナップショットを作成できます。これらのバックアップを使用してクラスターを復元できます。ElastiCache for Redis の復元は信頼性の高い効率的なプロセスです。&#xa;&#xa;&amp;nbsp;&amp;nbsp;&amp;nbsp; プライマリインスタンスと同期しているセカンダリインスタンスがあると、問題が発生したときにセカンダリインスタンスにフェイルオーバーできるので、高可用性を実現できます。また、リードレプリカを使用して、読み取りスケーリングを拡張できます。&#xa;&#xa;&amp;nbsp;&amp;nbsp;&amp;nbsp; ElastiCache for Redis クラスターへのアクセスを制御するには、AWS Identity and Access Management を使用して、ユーザーとアクセス許可を定義します。また、Virtual Private Cloud (VPC) に配置すると、クラスターを保護することもできます。&#xa;&#xa;&amp;nbsp;&amp;nbsp;&amp;nbsp; Global Datastore for Redis 機能を使用すると、AWS リージョン全体で完全マネージド型、高速、信頼性、安全なレプリケーションを実行できます。この機能を使用すると、ElastiCache for Redis のクロスリージョンリードレプリカクラスターを作成して、AWS リージョン全体で低レイテンシーの読み取りと災害対策を実現できます。&#xa;&#xa;&#xa;クラスタモードの有効／無効&#xa;クラスタ構成&#xa;　シャーディングが可能&#xa;　デフォルトノード最大500（シャード内ノード数×シャード数）&#xa;　ノードグループを構成し、プライマリに対して最大５つのリードレプリカを作成可能&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;故障時には自動でレプリカはプライマリに昇格&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;グローバルストアを用いると、クロスリージョンリードレプリカクラスターが構成可能&#xa;　各ノードグループ／リードレプリカのマルチAZデプロイが可能&#xa;　インメモリorディスクも用いたデータ階層化&#xa;エンドポイント&#xa;　クラスタモード無効&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;プライマリエンドポイント&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;読み込みエンドポイント&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;ノードエンドポイント&#xa;　クラスタモード有効&#xa;&amp;nbsp;&amp;nbsp; &amp;nbsp;設定エンドポイント（クラスターモード時）&#xa;&amp;nbsp;転送時の暗号化と保管時の暗号化 (認証あり) がサポート&#xa;ポイントインタイムリカバリ可能な自動バックアップ&#xa;ElastiCache イベントを用いたモニタリングや機能発出&#xa;サブネットグループによるデプロイ先設定&#xa;セキュリティグループによる制御&#xa;&#xa;疑問点&#xa;リードレプリカのマルチAZかかつプライマリ昇格は可能か" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="1840" height="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
