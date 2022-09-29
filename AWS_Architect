@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T15:44:25.785Z" agent="5.0 (Windows)" etag="GICO9p7P_Ic0RUJcvuK3" version="20.2.8" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-09-29T15:55:12.663Z" agent="5.0 (Windows)" etag="MKU8mXBh2ny9HPypG5_7" version="20.2.8" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1958,15 +1958,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eO8OdskQTUy68wg4uGHE" name="Database:ElastiCache">
-    <mxGraphModel dx="2370" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="B3gN14au7ekUI-eo49rT-35" value="クラスター（マルチAZ可能、最大デフォルト40）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="320" y="760" width="310" height="180" as="geometry" />
+        <mxCell id="B3gN14au7ekUI-eo49rT-35" value="クラスター（マルチAZ可能、最大デフォルト500）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="390" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-106" value="異なるリージョン" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="950" width="130" height="140" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-66" value="異なるAZ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="790" width="130" height="140" as="geometry" />
+          <mxGeometry x="550" y="790" width="130" height="140" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-12" target="B3gN14au7ekUI-eo49rT-74">
           <mxGeometry relative="1" as="geometry">
@@ -1982,19 +1985,43 @@
         <mxCell id="B3gN14au7ekUI-eo49rT-33" value="障害の自動復旧はなし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="40" y="75" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B3gN14au7ekUI-eo49rT-36" value="ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="344" y="815" width="96" height="100" as="geometry" />
+        <mxCell id="B3gN14au7ekUI-eo49rT-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-36" target="B3gN14au7ekUI-eo49rT-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="938" />
+              <mxPoint x="530" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-109" value="手動&lt;br&gt;昇格&lt;br&gt;のみ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="B3gN14au7ekUI-eo49rT-108">
+          <mxGeometry x="-0.2186" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-36" value="レプリケーショングループ／プライマリクラスタ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="344" y="815" width="176" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-95" value="&lt;div&gt;リードレプリカ&lt;/div&gt;&lt;div&gt;０～5まで&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="B3gN14au7ekUI-eo49rT-36">
+          <mxGeometry x="16" y="125" width="94" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-101" value="リードレプリカ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="B3gN14au7ekUI-eo49rT-36">
+          <mxGeometry x="16" y="185" width="94" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=0.998;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-39" target="B3gN14au7ekUI-eo49rT-51">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="856" />
+              <mxPoint x="860" y="856" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-38" value="削除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="B3gN14au7ekUI-eo49rT-37">
           <mxGeometry x="0.125" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B3gN14au7ekUI-eo49rT-39" value="ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="494" y="815" width="96" height="100" as="geometry" />
+        <mxCell id="B3gN14au7ekUI-eo49rT-39" value="レプリケーショングループ／プライマリクラスタ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="564" y="815" width="96" height="100" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-41" target="B3gN14au7ekUI-eo49rT-35">
           <mxGeometry relative="1" as="geometry" />
@@ -2020,8 +2047,8 @@
         <mxCell id="B3gN14au7ekUI-eo49rT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-51" target="B3gN14au7ekUI-eo49rT-39">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="835" />
-              <mxPoint x="600" y="835" />
+              <mxPoint x="850" y="840" />
+              <mxPoint x="850" y="840" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2030,16 +2057,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B3gN14au7ekUI-eo49rT-51" value="ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="780" y="805" width="96" height="100" as="geometry" />
+        <mxCell id="B3gN14au7ekUI-eo49rT-51" value="レプリケーショングループ／プライマリクラスタ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="930" y="805" width="96" height="100" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720.0000000000002" y="865" as="targetPoint" />
+            <mxPoint x="870.0000000000002" y="865" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-53" value="キースペースの再マッピング" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="660" y="915" width="120" height="50" as="geometry" />
+          <mxGeometry x="810" y="915" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-54" value="clientサーバ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="20" y="775" width="130" height="140" as="geometry" />
@@ -2085,7 +2112,7 @@
           <mxGeometry x="40" y="500" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-63" value="クラスターに対して書き込まれたデータをシャーディング" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="366" y="850" width="200" height="50" as="geometry" />
+          <mxGeometry x="334" y="670" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-64" value="障害の自動復旧はなし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="30" y="540" width="140" height="30" as="geometry" />
@@ -2197,6 +2224,46 @@
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-93" value="クラスターに対して書き込まれたデータをシャーディング" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="393" y="365" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-94" target="B3gN14au7ekUI-eo49rT-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-103" value="&lt;div&gt;自動FO&lt;/div&gt;&lt;div&gt;可能&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="B3gN14au7ekUI-eo49rT-102">
+          <mxGeometry x="0.231" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-94" value="プライマリ&lt;br&gt;ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="359" y="880" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-96" value="ノード" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="930" width="96" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=0.007;exitY=0.651;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.641;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-36" target="B3gN14au7ekUI-eo49rT-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.998" y="1081.4" as="sourcePoint" />
+            <mxPoint x="560.1899999999996" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-98" value="削除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="B3gN14au7ekUI-eo49rT-97">
+          <mxGeometry x="0.125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.011;entryY=0.542;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B3gN14au7ekUI-eo49rT-96" target="B3gN14au7ekUI-eo49rT-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="560.1899999999996" y="1060" as="sourcePoint" />
+            <mxPoint x="290" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-100" value="追加" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="B3gN14au7ekUI-eo49rT-99">
+          <mxGeometry x="-0.2083" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3gN14au7ekUI-eo49rT-107" value="セカンダリクラスタ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="564" y="980" width="96" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
