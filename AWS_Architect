@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T15:36:45.562Z" agent="5.0 (Windows)" etag="VO0OLkqGe6rTeyRdGOyZ" version="20.2.8" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-10-04T15:47:21.856Z" agent="5.0 (Windows)" etag="FfQ45ZS6VxymBIK1KHlB" version="20.2.8" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1958,7 +1958,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eO8OdskQTUy68wg4uGHE" name="Database:ElastiCache">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2247,14 +2247,14 @@
         <mxCell id="B3gN14au7ekUI-eo49rT-107" value="&lt;div&gt;セカンダリクラスタ&lt;br&gt;最大２リージョンまで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="564" y="980" width="96" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="B3gN14au7ekUI-eo49rT-110" value="&lt;div&gt;バックアップ&lt;/div&gt;&lt;div&gt;※ノードの「予約メモリ」を使用&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="20" y="790" width="260" height="100" as="geometry" />
+        <mxCell id="B3gN14au7ekUI-eo49rT-110" value="&lt;div&gt;バックアップ&lt;/div&gt;&lt;div&gt;※ノードの「予約メモリ」を使用&lt;/div&gt;&lt;div&gt;※最終バックアップもあり&lt;/div&gt;&lt;div&gt;※コピー×エクスポート可能&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="740" width="310" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="B3gN14au7ekUI-eo49rT-111" value="自動取得" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="34" y="830" width="96" height="50" as="geometry" />
+        <mxCell id="B3gN14au7ekUI-eo49rT-111" value="&lt;div&gt;自動取得&lt;/div&gt;&lt;div&gt;※バックアップ期間と保持期間設定&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="10" y="830" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B3gN14au7ekUI-eo49rT-112" value="手動取得" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="160" y="830" width="96" height="50" as="geometry" />
+        <mxCell id="B3gN14au7ekUI-eo49rT-112" value="&lt;div&gt;手動取得&lt;br&gt;※24時間当たり20ノードまで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="140" y="830" width="116" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
