@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T16:03:33.687Z" agent="5.0 (Windows)" etag="pBG6jhZnEn96x4t2x5lU" version="20.2.8" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-10-04T16:16:30.873Z" agent="5.0 (Windows)" etag="IV0EK038cJQYQNw4vRB9" version="20.2.8" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2036,7 +2036,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2-shcw30kICT-fICYedE-5" value="作り直しによる&lt;br&gt;スケールアップ／ダウン可能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="2-shcw30kICT-fICYedE-4">
+        <mxCell id="2-shcw30kICT-fICYedE-5" value="&lt;div&gt;手動の作り直しによる&lt;/div&gt;スケールアップ／ダウン可能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="2-shcw30kICT-fICYedE-4">
           <mxGeometry x="0.2241" relative="1" as="geometry">
             <mxPoint x="-19" as="offset" />
           </mxGeometry>
