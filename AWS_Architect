@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T14:55:21.642Z" agent="5.0 (Windows)" etag="_askUXcqj-OJulQ9kbtr" version="20.4.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-10-14T15:00:58.644Z" agent="5.0 (Windows)" etag="LsTkJTf-1Nc300BHmtuU" version="20.4.0" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1725,7 +1725,7 @@
         <mxCell id="ep7LNjlJqGyvsODeuTRu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="ryOj9puT9vEHTZXv41So-7" target="ep7LNjlJqGyvsODeuTRu-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ep7LNjlJqGyvsODeuTRu-6" value="デフォルトで監査用のデータを&lt;br&gt;出力できるパラメータ設定可能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="ep7LNjlJqGyvsODeuTRu-5" vertex="1" connectable="0">
+        <mxCell id="ep7LNjlJqGyvsODeuTRu-6" value="デフォルトで監査用のデータを&lt;br&gt;&lt;div&gt;出力できるパラメータ設定可能&lt;/div&gt;&lt;div&gt;By Kinesis Stream&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="ep7LNjlJqGyvsODeuTRu-5" vertex="1" connectable="0">
           <mxGeometry x="0.729" y="1" relative="1" as="geometry">
             <mxPoint y="23" as="offset" />
           </mxGeometry>
