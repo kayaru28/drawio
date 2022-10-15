@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T01:54:38.734Z" agent="5.0 (Windows)" etag="shiGFoC2fo1449oR7C2J" version="20.4.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-10-15T15:54:48.179Z" agent="5.0 (Windows)" etag="8ntHjGwyYoTfijt9kuVP" version="20.4.0" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1295,7 +1295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1g2zg9L1lEkFqRAURlZY" name="Database：RDS">
-    <mxGraphModel dx="3978" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5641" dy="2840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1321,7 +1321,7 @@
         </mxCell>
         <mxCell id="-nwX4_6EHw2_mweCIigC-74" value="&lt;div&gt;リードレプリカ作成時に必要であるため、&lt;/div&gt;&lt;div&gt;スナップショットがあることが必須&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-nwX4_6EHw2_mweCIigC-73" vertex="1" connectable="0">
           <mxGeometry x="0.1647" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-nwX4_6EHw2_mweCIigC-75" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ryOj9puT9vEHTZXv41So-3" target="-nwX4_6EHw2_mweCIigC-2" edge="1">
