@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T15:47:39.022Z" agent="5.0 (Windows)" etag="ABv3ofjOZVdxp39iO3zF" version="20.4.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-10-15T01:31:29.461Z" agent="5.0 (Windows)" etag="otTdKco2z_i8mbKkCmFP" version="20.4.0" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1295,7 +1295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1g2zg9L1lEkFqRAURlZY" name="Database：RDS">
-    <mxGraphModel dx="3903" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3978" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1570,7 +1570,7 @@
           <mxGeometry x="-50" y="388" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q7p3RyB4jgMzHxYyW0IN-1" value="bin_log必須" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="640" y="300" width="90" height="30" as="geometry" />
+          <mxGeometry x="630" y="290" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q7p3RyB4jgMzHxYyW0IN-2" value="エンジン事の違い" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-1750" y="510" width="1140" height="340" as="geometry" />
@@ -1634,7 +1634,7 @@
             <mxRectangle width="161" height="54" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q7p3RyB4jgMzHxYyW0IN-17" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="q7p3RyB4jgMzHxYyW0IN-12" vertex="1">
+        <mxCell id="q7p3RyB4jgMzHxYyW0IN-17" value="&lt;div&gt;-&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="q7p3RyB4jgMzHxYyW0IN-12" vertex="1">
           <mxGeometry x="691" width="160" height="54" as="geometry">
             <mxRectangle width="160" height="54" as="alternateBounds" />
           </mxGeometry>
@@ -1733,7 +1733,7 @@
         <mxCell id="ep7LNjlJqGyvsODeuTRu-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.snapshot;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="767" y="-190" width="56" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="KVZ26mGooPXooXHjlGJX-1" value="c " style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="KVZ26mGooPXooXHjlGJX-1" value="c " style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="790" y="70" as="sourcePoint" />
             <mxPoint x="870" y="70" as="targetPoint" />
@@ -1808,7 +1808,7 @@
             <mxRectangle width="113" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gasJrQ6BfSPZN5V8yc2m-8" value="パラメーターグループによる共通設定&lt;br&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="gasJrQ6BfSPZN5V8yc2m-6" vertex="1">
+        <mxCell id="gasJrQ6BfSPZN5V8yc2m-8" value="パラメーターグループによる共通設定&lt;br&gt;サブネットグループによるデプロイNW／AZ制御" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="gasJrQ6BfSPZN5V8yc2m-6" vertex="1">
           <mxGeometry x="113" width="150" height="120" as="geometry">
             <mxRectangle width="150" height="120" as="alternateBounds" />
           </mxGeometry>
