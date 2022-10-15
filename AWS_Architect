@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T01:38:42.033Z" agent="5.0 (Windows)" etag="Zk09bNakQWzTmRwoT4i-" version="20.4.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-10-15T01:48:39.162Z" agent="5.0 (Windows)" etag="Yj9USQGMOixAEjrLSzzt" version="20.4.0" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1569,8 +1569,8 @@
         <mxCell id="BxKlL8qb_SvTgmKugrMS-12" value="1つのスタンバイを備えた Amazon RDS マルチAZ&#xa;2つの読み取り可能なスタンバイを備えた Amazon RDS マルチAZ" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="388" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="q7p3RyB4jgMzHxYyW0IN-1" value="bin_log必須" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="630" y="290" width="90" height="30" as="geometry" />
+        <mxCell id="q7p3RyB4jgMzHxYyW0IN-1" value="&lt;div&gt;bin_log必須&lt;/div&gt;&lt;div&gt;手動昇格のみ&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="640" y="300" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q7p3RyB4jgMzHxYyW0IN-2" value="エンジン事の違い" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-1750" y="510" width="1140" height="340" as="geometry" />
