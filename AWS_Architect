@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T01:35:04.153Z" agent="5.0 (Windows)" etag="2YRimMg6O608qmFV_igN" version="20.4.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-10-15T01:36:02.462Z" agent="5.0 (Windows)" etag="O0poE_htr9dqqOQEwuRO" version="20.4.0" type="github" pages="13">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2316,7 +2316,7 @@
         <mxCell id="B3gN14au7ekUI-eo49rT-107" value="&lt;div&gt;セカンダリクラスタ&lt;br&gt;最大２リージョンまで&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="764" y="915" width="96" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="B3gN14au7ekUI-eo49rT-110" value="&lt;div&gt;バックアップ&lt;/div&gt;&lt;div&gt;※ノードの「予約メモリ」を使用&lt;/div&gt;&lt;div&gt;※最終バックアップもあり&lt;/div&gt;&lt;div&gt;※コピー×エクスポート可能&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="B3gN14au7ekUI-eo49rT-110" value="&lt;div&gt;バックアップ&lt;/div&gt;&lt;div&gt;※ノードの「予約メモリ」を使用、％指定推奨&lt;/div&gt;&lt;div&gt;※最終バックアップもあり&lt;/div&gt;&lt;div&gt;※コピー×エクスポート可能&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="170" y="675" width="310" height="150" as="geometry" />
         </mxCell>
         <mxCell id="B3gN14au7ekUI-eo49rT-111" value="&lt;div&gt;自動取得&lt;/div&gt;&lt;div&gt;※バックアップ期間と保持期間設定&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
