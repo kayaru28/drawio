@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T15:54:48.179Z" agent="5.0 (Windows)" etag="8ntHjGwyYoTfijt9kuVP" version="20.4.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-11-14T13:43:25.571Z" agent="5.0 (Windows)" etag="QPDQIJCzEG4Gx_Vd7t8j" version="20.4.1" type="github" pages="14">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2342,6 +2342,26 @@
           <mxGeometry x="-0.1896" y="-3" relative="1" as="geometry">
             <mxPoint x="16" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yH6q47hW-nWYA8Xp7tSL" name="Network:VPC flow log">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-1" value="フローログの作成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-2" value="フローログを作成するリソース" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-3" value="キャプチャするトラフィックの種類" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-4" value="フローログデータを発行する送信先" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
