@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T13:43:25.571Z" agent="5.0 (Windows)" etag="QPDQIJCzEG4Gx_Vd7t8j" version="20.4.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-11-14T13:55:29.478Z" agent="5.0 (Windows)" etag="O2OSRzmjO-vw5c1uLg5O" version="20.4.1" type="github" pages="14">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2347,7 +2347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yH6q47hW-nWYA8Xp7tSL" name="Network:VPC flow log">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2355,13 +2355,46 @@
           <mxGeometry x="140" y="100" width="620" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-2" value="フローログを作成するリソース" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="200" height="30" as="geometry" />
+          <mxGeometry x="-150" y="-10" width="190" height="150" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-3" value="キャプチャするトラフィックの種類" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="150" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-4" value="フローログデータを発行する送信先" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-6" value="フローログ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-8" value="&lt;div&gt;ネットワーク&lt;/div&gt;&lt;div&gt;インターフェース&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-9" value="サブネット&lt;br&gt;（内のENI）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-10" value="&lt;div&gt;VPC&lt;br&gt;（内のENI）&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="J7uvHYNTAHmQuNFKRBrS-10" target="J7uvHYNTAHmQuNFKRBrS-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="J7uvHYNTAHmQuNFKRBrS-8" target="J7uvHYNTAHmQuNFKRBrS-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4.913642732338303" y="443.88248927596305" as="sourcePoint" />
+            <mxPoint x="335.1456326351531" y="346.20697217597717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="J7uvHYNTAHmQuNFKRBrS-9" target="J7uvHYNTAHmQuNFKRBrS-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5.587994627338503" y="225.05508187823762" as="sourcePoint" />
+            <mxPoint x="334.4671826276708" y="314.85468617118295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J7uvHYNTAHmQuNFKRBrS-15" value="許可された&lt;br&gt;トラフィック&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OR/AND&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;拒否された&lt;br&gt;トラフィック&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="120" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
