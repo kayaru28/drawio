@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:35:14.785Z" agent="5.0 (Windows)" etag="HA2ud_ARZhOwxtw0tZ6R" version="20.5.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-11-18T10:59:54.858Z" agent="5.0 (Windows)" etag="3xbYkXxJYS7hVpkwROkb" version="20.5.3" type="github" pages="14">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2468,6 +2468,18 @@
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-7" value="ネットワークインターフェースごとのログストリーム" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="625" y="583" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gK3ceTjbHsuRmdiCp9hs-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry y="470" width="20" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gK3ceTjbHsuRmdiCp9hs-9" value="IAMロール" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="435" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gK3ceTjbHsuRmdiCp9hs-10" value="&lt;div&gt;ログファイルに統合して5分間隔で送付&lt;/div&gt;&lt;div&gt;上限75MBまで&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="219" y="410" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gK3ceTjbHsuRmdiCp9hs-11" value="直接発行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
