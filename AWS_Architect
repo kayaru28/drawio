@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T10:59:54.858Z" agent="5.0 (Windows)" etag="3xbYkXxJYS7hVpkwROkb" version="20.5.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-11-18T11:10:50.096Z" agent="5.0 (Windows)" etag="LPbXdrxiEHbA4FjdSnM0" version="20.5.3" type="github" pages="14">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2475,11 +2475,17 @@
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-9" value="IAMロール" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-20" y="435" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gK3ceTjbHsuRmdiCp9hs-10" value="&lt;div&gt;ログファイルに統合して5分間隔で送付&lt;/div&gt;&lt;div&gt;上限75MBまで&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="219" y="410" width="230" height="40" as="geometry" />
+        <mxCell id="gK3ceTjbHsuRmdiCp9hs-10" value="&lt;div&gt;ログファイルに統合して5分間隔送付&lt;/div&gt;&lt;div&gt;上限75MBまで&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="224" y="410" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-11" value="直接発行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="570" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gK3ceTjbHsuRmdiCp9hs-12" value="プレーンテキストで直接発行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="725" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gK3ceTjbHsuRmdiCp9hs-13" value="別アカウントも利用可能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="815" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
