@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T11:46:12.897Z" agent="5.0 (Windows)" etag="4Xi_PwnFMHrUNDnr-IsS" version="20.5.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-11-21T11:46:56.085Z" agent="5.0 (Windows)" etag="FCS4_YqqCAc3B3g9n4Uh" version="20.5.3" type="github" pages="15">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2491,7 +2491,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0A7OAjXq5tXsCYaC43KP" name="Network:Overview">
-    <mxGraphModel dx="3015" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2324" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2615,10 +2615,10 @@
           <mxGeometry x="-30" y="520" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-37" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.vpn_gateway;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="620" width="78" height="78" as="geometry" />
+          <mxGeometry x="138" y="620" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-38" value="&lt;div align=&quot;left&quot;&gt;AWSのパブリックエンドポイントにつながっている&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;GW&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="639" width="300" height="40" as="geometry" />
+          <mxGeometry x="130" y="702" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-40" value="&lt;div align=&quot;left&quot;&gt;パブリックVIF&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-30" y="630" width="100" height="30" as="geometry" />
