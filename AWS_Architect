@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T11:10:35.792Z" agent="5.0 (Windows)" etag="22jQo9NFokbQUlk-BJpu" version="20.5.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-11-21T11:12:39.647Z" agent="5.0 (Windows)" etag="6a_cq4vYNRM4FvDdTlib" version="20.5.3" type="github" pages="15">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2491,15 +2491,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0A7OAjXq5tXsCYaC43KP" name="Network:Overview">
-    <mxGraphModel dx="2858" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="THu7pNJ_q9gSdTDgXlIP-1" value="Direct Connectロケーション" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="160" y="150" width="290" height="290" as="geometry" />
+        <mxCell id="THu7pNJ_q9gSdTDgXlIP-1" value="Direct Connectロケーション" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="400" height="290" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.router;" vertex="1" parent="1">
-          <mxGeometry x="350" y="230" width="78" height="78" as="geometry" />
+          <mxGeometry x="436" y="230" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="THu7pNJ_q9gSdTDgXlIP-3" target="THu7pNJ_q9gSdTDgXlIP-2">
           <mxGeometry relative="1" as="geometry" />
@@ -2508,7 +2508,7 @@
           <mxGeometry x="200" y="230" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-5" value="AWSルータ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="344" y="310" width="90" height="30" as="geometry" />
+          <mxGeometry x="430" y="310" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-6" value="&lt;div&gt;お客様／パートナー&lt;/div&gt;&lt;div&gt;機器&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="305" width="130" height="40" as="geometry" />
@@ -2524,6 +2524,15 @@
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-9" value="&lt;div&gt;お客様&lt;/div&gt;&lt;div&gt;ルータ&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-155" y="305" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="THu7pNJ_q9gSdTDgXlIP-11" value="１GB/10GB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THu7pNJ_q9gSdTDgXlIP-12" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="THu7pNJ_q9gSdTDgXlIP-13" value="最大４LAC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="310" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
