@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T16:13:50.698Z" agent="5.0 (Windows)" etag="g2PBnmGg4iBiaXCN85VC" version="20.5.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-11-22T11:26:00.658Z" agent="5.0 (Windows)" etag="NWRI0oFBHoFBZoKC5gxm" version="20.5.3" type="github" pages="15">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2491,7 +2491,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0A7OAjXq5tXsCYaC43KP" name="Network:Overview">
-    <mxGraphModel dx="3151" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3842" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2580,7 +2580,7 @@
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THu7pNJ_q9gSdTDgXlIP-29" target="THu7pNJ_q9gSdTDgXlIP-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="371" />
+              <mxPoint x="240" y="310" />
               <mxPoint x="240" y="251" />
             </Array>
           </mxGeometry>
@@ -2588,13 +2588,13 @@
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THu7pNJ_q9gSdTDgXlIP-29" target="THu7pNJ_q9gSdTDgXlIP-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="371" />
+              <mxPoint x="240" y="309" />
               <mxPoint x="240" y="401" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-29" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.gateway;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="332" width="76" height="78" as="geometry" />
+          <mxGeometry x="140" y="270" width="76" height="78" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-30" value="&lt;div&gt;DX GW&lt;/div&gt;&lt;div&gt;（最大10VPC）&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="126" y="405" width="110" height="40" as="geometry" />
@@ -2602,12 +2602,12 @@
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THu7pNJ_q9gSdTDgXlIP-58" target="THu7pNJ_q9gSdTDgXlIP-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-40" y="371" />
+              <mxPoint x="-40" y="309" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-35" value="&lt;div align=&quot;left&quot;&gt;プライベートVIF&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="340" width="110" height="30" as="geometry" />
+          <mxGeometry x="-30" y="280" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-36" value="&lt;div align=&quot;left&quot;&gt;プライベートVIF&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-30" y="520" width="110" height="30" as="geometry" />
@@ -2685,7 +2685,7 @@
           <mxGeometry x="320" y="770" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-58" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.direct_connect;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="386" width="78" height="78" as="geometry" />
+          <mxGeometry x="-78" y="371" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="THu7pNJ_q9gSdTDgXlIP-2" target="THu7pNJ_q9gSdTDgXlIP-58">
           <mxGeometry relative="1" as="geometry">
