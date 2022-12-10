@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-10T17:19:44.397Z" agent="5.0 (Windows)" etag="A838UngyJf3MCfmOFQWQ" version="20.6.0" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-10T17:32:51.009Z" agent="5.0 (Windows)" etag="S6aGVnIqCI2FeZI-6fbA" version="20.6.0" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2933,7 +2933,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cb9kk9KwxakzPPnQzh8k" name="Network：Routing">
-    <mxGraphModel dx="1580" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2955,8 +2955,8 @@
         <mxCell id="AOR968isM65PtUR7h8gl-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" vertex="1" parent="1">
           <mxGeometry x="226" y="620" width="78" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="AOR968isM65PtUR7h8gl-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;カスタムルートテーブル&lt;/div&gt;&lt;ul&gt;&lt;li&gt;サブネット内のアドレスに対する&lt;br&gt;Localルートをデフォルトで保持&lt;/li&gt;&lt;li&gt;サブネットから外に出る&lt;br&gt;Staticなルートを定義可能&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="680" width="240" height="120" as="geometry" />
+        <mxCell id="AOR968isM65PtUR7h8gl-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;カスタムルートテーブル&lt;/div&gt;&lt;ul&gt;&lt;li&gt;サブネット内のアドレスに対する&lt;br&gt;Localルートをデフォルトで保持&lt;/li&gt;&lt;li&gt;サブネットから外に出る&lt;br&gt;Staticなルートを定義可能&lt;/li&gt;&lt;li&gt;Transit Gatewayからのルート伝搬は&lt;br&gt;受け取らない&lt;br&gt;＝静的ルートを設定する必要有&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="680" width="260" height="170" as="geometry" />
         </mxCell>
         <mxCell id="WISCy2beF2sBTGPtH55f-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AOR968isM65PtUR7h8gl-6" target="G_nxTTgfFUpV7PwCcmLR-1">
           <mxGeometry relative="1" as="geometry">
@@ -2985,6 +2985,21 @@
         </mxCell>
         <mxCell id="WISCy2beF2sBTGPtH55f-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.vpn_gateway;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="440" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="yW8yd9nMvMLuLSwHzCVA-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.transit_gateway;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="978" y="250" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="yW8yd9nMvMLuLSwHzCVA-2" value="Transit Gateway" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="328" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yW8yd9nMvMLuLSwHzCVA-4" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" vertex="1" parent="1">
+          <mxGeometry x="981" y="370" width="78" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="yW8yd9nMvMLuLSwHzCVA-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://docs.aws.amazon.com/vpc/latest/tgw/tgw-route-tables.html&quot;&gt;トランジットゲートウェイルートテーブル&lt;/a&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;アタッチメントごとにルートテーブルを設定可能&lt;br&gt;&lt;/li&gt;&lt;li&gt;静的ルート設定&lt;/li&gt;&lt;ul&gt;&lt;li&gt;VPC、VPN、トランジットゲートウェイピアリングアタッチメントへのルートを設定可能&lt;/li&gt;&lt;li&gt;ブラックホールルートも設定可能&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;動的ルート設定&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;アタッチメントを指定してルートを伝搬してもらうように設定可能&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="905" y="430" width="580" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yW8yd9nMvMLuLSwHzCVA-6" value="&lt;li class=&quot;listitem&quot;&gt;&#xa;         &lt;p&gt;&lt;span class=&quot;topcom&quot;&gt;Attachments&lt;/span&gt; — You can attach the&#xa;          following:&lt;/p&gt;&#xa;        &lt;div class=&quot;itemizedlist&quot;&gt;&#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;        &lt;ul class=&quot;itemizedlist&quot; type=&quot;disc&quot;&gt;&lt;li class=&quot;listitem&quot;&gt;&#xa;            &lt;p&gt;One or more VPCs&lt;/p&gt;&#xa;          &lt;/li&gt;&lt;li class=&quot;listitem&quot;&gt;&#xa;            &lt;p&gt;A Connect SD-WAN/third-party network appliance&lt;/p&gt;&#xa;          &lt;/li&gt;&lt;li class=&quot;listitem&quot;&gt;&#xa;            &lt;p&gt;An AWS Direct Connect gateway&lt;/p&gt;&#xa;          &lt;/li&gt;&lt;li class=&quot;listitem&quot;&gt;&#xa;            &lt;p&gt;A peering connection with another transit gateway&lt;/p&gt;&#xa;          &lt;/li&gt;&lt;li class=&quot;listitem&quot;&gt;&#xa;            &lt;p&gt;A VPN connection to a transit gateway&lt;/p&gt;&#xa;          &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&#xa;      &lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="370" width="340" height="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
