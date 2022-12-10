@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T16:43:23.932Z" agent="5.0 (Windows)" etag="Z1LurT2PETHaUXfFPNHw" version="20.6.0" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-10T17:19:44.397Z" agent="5.0 (Windows)" etag="A838UngyJf3MCfmOFQWQ" version="20.6.0" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2933,7 +2933,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cb9kk9KwxakzPPnQzh8k" name="Network：Routing">
-    <mxGraphModel dx="1138" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1580" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2977,17 +2977,14 @@
         <mxCell id="AOR968isM65PtUR7h8gl-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" vertex="1" parent="1">
           <mxGeometry x="520" y="623.9" width="74" height="72.1" as="geometry" />
         </mxCell>
-        <mxCell id="AOR968isM65PtUR7h8gl-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ゲートウェイルートテーブル&lt;/div&gt;&lt;ul&gt;&lt;li&gt;インターネットゲートウェイまたは&lt;br&gt;仮想プライベートゲートウェイに&lt;br&gt;関連付けることができるルートテーブル&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="440" y="680" width="280" height="110" as="geometry" />
+        <mxCell id="AOR968isM65PtUR7h8gl-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ゲートウェイルートテーブル&lt;/div&gt;&lt;ul&gt;&lt;li&gt;インターネットゲートウェイまたは仮想プライベートゲートウェイに&lt;br&gt;関連付けることができるルートテーブル&lt;/li&gt;&lt;li&gt;VPC に入るトラフィックのルーティングパスを細かく制御するための機能&lt;/li&gt;&lt;li&gt;&lt;div&gt;次のターゲットを持つルートをサポート。&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;デフォルトのローカルルート&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/&quot;&gt;Gateway Load Balancer エンドポイント（IGWのみ）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;ミドルボックスアプライアンス用EC2のENI&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="680" width="460" height="200" as="geometry" />
         </mxCell>
         <mxCell id="WISCy2beF2sBTGPtH55f-6" value="VPN GW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="424" y="410" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WISCy2beF2sBTGPtH55f-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.vpn_gateway;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="440" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="WISCy2beF2sBTGPtH55f-9" value="&lt;div&gt;次のターゲットを持つルートをサポートします。&lt;/div&gt;&lt;ul&gt;&lt;li&gt;デフォルトのローカルルート&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/&quot;&gt;ateway Load Balancer エンドポイント（IGWのみ）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;ミドルボックスアプライアンスのネットワークインターフェイス                &lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="590" y="609.9499999999999" width="410" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
