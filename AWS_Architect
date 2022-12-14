@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T11:29:23.158Z" agent="5.0 (Windows)" etag="v-DiNC0hayt-wRzZJ7Y-" version="20.6.0" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-14T11:33:10.522Z" agent="5.0 (Windows)" etag="TSTFgBM2pKrYqF81dtuf" version="20.6.0" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2347,7 +2347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yH6q47hW-nWYA8Xp7tSL" name="Network:VPC flow log">
-    <mxGraphModel dx="2249" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2473" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2491,7 +2491,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0A7OAjXq5tXsCYaC43KP" name="Network:Overview">
-    <mxGraphModel dx="4946" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5769" dy="2150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2929,6 +2929,9 @@
         </mxCell>
         <mxCell id="SosnOt6WuzmqS-L1gRPD-42" value="&lt;div&gt;SD-WANなどの&lt;/div&gt;&lt;div&gt;機器&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-810" y="1045" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D0k0nTfhpdm8jFD7Z9zR-2" value="https://docs.aws.amazon.com/ja_jp/vpc/index.html" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1455" y="45" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
