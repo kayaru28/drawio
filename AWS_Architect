@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T13:43:36.097Z" agent="5.0 (Windows)" etag="ACOLsArfVIM3yN6Lc7eB" version="20.6.0" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-16T14:40:25.716Z" agent="5.0 (Windows)" etag="RoviaRZE0hSDVm4ocEgA" version="20.6.0" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1646" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2347,7 +2347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0A7OAjXq5tXsCYaC43KP" name="Network:Overview">
-    <mxGraphModel dx="8238" dy="3440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2920" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2785,6 +2785,11 @@
         <mxCell id="SosnOt6WuzmqS-L1gRPD-42" value="&lt;div&gt;SD-WANなどの&lt;/div&gt;&lt;div&gt;機器&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-810" y="1045" width="110" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html" link="https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html" id="PfSLxQrbxoNCHAQy7-ex-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-1530" y="120" width="460" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
