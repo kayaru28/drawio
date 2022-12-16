@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T13:39:05.811Z" agent="5.0 (Windows)" etag="5N00NOxofhJg6N7h6IOE" version="20.6.0" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-16T13:43:36.097Z" agent="5.0 (Windows)" etag="ACOLsArfVIM3yN6Lc7eB" version="20.6.0" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1646" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2949,8 +2949,8 @@
         <mxCell id="JMFoRJ6MW00MvkcTzCDd-1" value="&lt;div&gt;Internet&lt;/div&gt;&lt;div&gt;Gateway&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="AOR968isM65PtUR7h8gl-1" vertex="1">
           <mxGeometry x="474" y="280" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="O7PxuYW6ISBA0wCPHTtP-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;カスタムルートテーブル&lt;/div&gt;&lt;ul&gt;&lt;li&gt;サブネット内のアドレスに対する&lt;br&gt;Localルートをデフォルトで保持&lt;/li&gt;&lt;li&gt;サブネットから外に出る&lt;br&gt;Staticなルートを定義可能&lt;/li&gt;&lt;li&gt;Transit Gatewayからのルート伝搬は&lt;br&gt;受け取らない&lt;br&gt;＝静的ルートを設定する必要有&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AOR968isM65PtUR7h8gl-1">
-          <mxGeometry x="214" y="240" width="260" height="170" as="geometry" />
+        <mxCell id="O7PxuYW6ISBA0wCPHTtP-1" value="&lt;div&gt;トンネリング先に接続VPCルート伝搬&lt;/div&gt;&lt;div&gt;接続VPCにトンネリング先から&lt;br&gt;受け取ったルート伝搬&lt;/div&gt;&lt;div&gt;接続VPC上のほかのルーティングは？&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="AOR968isM65PtUR7h8gl-1">
+          <mxGeometry x="220" y="230" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AOR968isM65PtUR7h8gl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AOR968isM65PtUR7h8gl-2" target="AOR968isM65PtUR7h8gl-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
