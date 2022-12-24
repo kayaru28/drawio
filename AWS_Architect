@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T14:56:29.213Z" agent="5.0 (Windows)" etag="CJhCfB-h6QJfwe-JLdm4" version="20.7.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-24T15:51:29.005Z" agent="5.0 (Windows)" etag="N6bhq8ySs3GgZwuVdfD5" version="20.7.3" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2785,9 +2785,9 @@
         <mxCell id="SosnOt6WuzmqS-L1gRPD-42" value="&lt;div&gt;SD-WANなどの&lt;/div&gt;&lt;div&gt;機器&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-810" y="1045" width="110" height="40" as="geometry" />
         </mxCell>
-        <UserObject label="https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html" link="https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html" id="PfSLxQrbxoNCHAQy7-ex-1">
+        <UserObject label="&lt;div&gt;VPCは完了&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html&lt;/div&gt;&lt;div&gt;VPCピアリングガイド&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;https://docs.aws.amazon.com/ja_jp/vpc/latest/peering/what-is-vpc-peering.html&lt;br&gt;&lt;/div&gt;" link="https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html" id="PfSLxQrbxoNCHAQy7-ex-1">
           <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="-1530" y="120" width="460" height="40" as="geometry" />
+            <mxGeometry x="-1530" y="120" width="690" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="EInFTWX9ce9RRAx6ODCl-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;" vertex="1" parent="1">
