@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T14:13:04.789Z" agent="5.0 (Windows)" etag="XJ0a3AyzXGP1qLCMzIwe" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-27T14:19:18.026Z" agent="5.0 (Windows)" etag="ptxMNwQxwleR9Lsrl3Kb" version="20.7.4" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2834,16 +2834,16 @@
         <mxCell id="2Wx8c9SLJqabW4lHssv4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=21;" parent="1" source="2Wx8c9SLJqabW4lHssv4-6" target="2Wx8c9SLJqabW4lHssv4-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1020" y="3932" />
-              <mxPoint x="-1020" y="4052" />
+              <mxPoint x="-900" y="3932" />
+              <mxPoint x="-900" y="4052" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2Wx8c9SLJqabW4lHssv4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" parent="1" source="2Wx8c9SLJqabW4lHssv4-6" target="2Wx8c9SLJqabW4lHssv4-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1020" y="3932" />
-              <mxPoint x="-1020" y="4179" />
+              <mxPoint x="-900" y="3932" />
+              <mxPoint x="-900" y="4179" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2870,6 +2870,26 @@
         </mxCell>
         <mxCell id="fnPPeZ1GcdLhFJwomill-1" value="&lt;div&gt;&lt;b&gt;フィルター&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Traffic direction (inbound or outbound)&lt;/li&gt;&lt;li&gt;Action (accept or reject the packet)&lt;/li&gt;&lt;li&gt;Protocol (L4 protocol)&lt;/li&gt;&lt;li&gt;Source port range&lt;/li&gt;&lt;li&gt;Destination port range&lt;/li&gt;&lt;li&gt;Source CIDR block&lt;/li&gt;&lt;li&gt;Destination CIDR block&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-1190" y="3760" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fnPPeZ1GcdLhFJwomill-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="1">
+          <mxGeometry x="-1429" y="4016" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="fnPPeZ1GcdLhFJwomill-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fnPPeZ1GcdLhFJwomill-3" target="2Wx8c9SLJqabW4lHssv4-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1180" y="4056" />
+              <mxPoint x="-1180" y="3932" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fnPPeZ1GcdLhFJwomill-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_network_interface;fillColor=#F58536;gradientColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="4020" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fnPPeZ1GcdLhFJwomill-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.aws.amazon.com/images/vpc/latest/mirroring/images/traffic-mirroring-packets.png;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="3910" width="400" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="fnPPeZ1GcdLhFJwomill-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.aws.amazon.com/images/vpc/latest/mirroring/images/traffic-mirroring-gwlb-packets.png;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="4119.5" width="520" height="119" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
