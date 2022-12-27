@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T14:11:56.592Z" agent="5.0 (Windows)" etag="GyJ4Q_mi0SezGuWROR9j" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-27T14:13:04.789Z" agent="5.0 (Windows)" etag="XJ0a3AyzXGP1qLCMzIwe" version="20.7.4" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2868,7 +2868,7 @@
         <mxCell id="2Wx8c9SLJqabW4lHssv4-12" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.gateway_load_balancer;" parent="1" vertex="1">
           <mxGeometry x="-734.5" y="4140" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="fnPPeZ1GcdLhFJwomill-1" value="&lt;div&gt;フィルター&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Traffic direction (inbound or outbound)&lt;/li&gt;&lt;li&gt;Action (accept or reject the packet)&lt;/li&gt;&lt;li&gt;Protocol (L4 protocol)&lt;/li&gt;&lt;li&gt;Source port range&lt;/li&gt;&lt;li&gt;Destination port range&lt;/li&gt;&lt;li&gt;Source CIDR block&lt;/li&gt;&lt;li&gt;Destination CIDR block&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="fnPPeZ1GcdLhFJwomill-1" value="&lt;div&gt;&lt;b&gt;フィルター&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Traffic direction (inbound or outbound)&lt;/li&gt;&lt;li&gt;Action (accept or reject the packet)&lt;/li&gt;&lt;li&gt;Protocol (L4 protocol)&lt;/li&gt;&lt;li&gt;Source port range&lt;/li&gt;&lt;li&gt;Destination port range&lt;/li&gt;&lt;li&gt;Source CIDR block&lt;/li&gt;&lt;li&gt;Destination CIDR block&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-1190" y="3760" width="280" height="170" as="geometry" />
         </mxCell>
       </root>
