@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T15:43:30.055Z" agent="5.0 (Windows)" etag="usco_TlES7GkcWeNGZpz" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-27T15:46:17.520Z" agent="5.0 (Windows)" etag="PEys3IXJ6nHD2210GSP0" version="20.7.4" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2886,8 +2886,8 @@
         <mxCell id="fnPPeZ1GcdLhFJwomill-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.aws.amazon.com/images/vpc/latest/mirroring/images/traffic-mirroring-gwlb-packets.png;" vertex="1" parent="1">
           <mxGeometry x="-240" y="4119.5" width="520" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="fnPPeZ1GcdLhFJwomill-7" value="VPCは完了 https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html&lt;br&gt;VPCピアリングガイド https://docs.aws.amazon.com/ja_jp/vpc/latest/peering/what-is-vpc-peering.html&lt;br&gt;トラフィックミラーリングガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/mirroring/traffic-mirror-cloudwatch.html&lt;br&gt;Reachability Analyzer ガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/reachability/what-is-reachability-analyzer.html" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1560" y="80" width="690" height="70" as="geometry" />
+        <mxCell id="fnPPeZ1GcdLhFJwomill-7" value="VPCは完了 https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html&lt;br&gt;VPCピアリングガイド https://docs.aws.amazon.com/ja_jp/vpc/latest/peering/what-is-vpc-peering.html&lt;br&gt;トラフィックミラーリングガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/mirroring/traffic-mirror-cloudwatch.html&lt;br&gt;&lt;div&gt;Reachability Analyzer ガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/reachability/what-is-reachability-analyzer.html&lt;/div&gt;Network Access Analyzer ガイド" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="70" width="690" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
