@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-28T14:03:05.395Z" agent="5.0 (Windows)" etag="4ueNkiaMDLYcmR0s_fOY" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-12-28T14:07:51.461Z" agent="5.0 (Windows)" etag="yBbSmCiskNW3wO-_rlDD" version="20.7.4" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2347,7 +2347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0A7OAjXq5tXsCYaC43KP" name="Network:Overview">
-    <mxGraphModel dx="7181" dy="2873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2724" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2811,8 +2811,8 @@
         <mxCell id="S1cv9a4EWQxdMWRR1QiV-4" value="&lt;div align=&quot;left&quot;&gt;VPC Peering&lt;br&gt;・リージョン間ピアリングも可能&lt;/div&gt;&lt;div&gt;・同一リージョンの場合相手SGをSGルールに使用可能&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="740" y="1670" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fnPPeZ1GcdLhFJwomill-7" value="VPCは完了 https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html&lt;br&gt;VPCピアリングガイド https://docs.aws.amazon.com/ja_jp/vpc/latest/peering/what-is-vpc-peering.html&lt;br&gt;トラフィックミラーリングガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/mirroring/traffic-mirror-cloudwatch.html&lt;br&gt;&lt;div&gt;Reachability Analyzer ガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/reachability/what-is-reachability-analyzer.html&lt;/div&gt;Network Access Analyzer ガイド" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1560" y="70" width="690" height="90" as="geometry" />
+        <mxCell id="fnPPeZ1GcdLhFJwomill-7" value="VPCは完了 https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/vpc-nat-gateway.html&lt;br&gt;VPCピアリングガイド https://docs.aws.amazon.com/ja_jp/vpc/latest/peering/what-is-vpc-peering.html&lt;br&gt;トラフィックミラーリングガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/mirroring/traffic-mirror-cloudwatch.html&lt;br&gt;&lt;div&gt;Reachability Analyzer ガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/reachability/what-is-reachability-analyzer.html&lt;/div&gt;Network Access Analyzer ガイド　https://docs.aws.amazon.com/ja_jp/vpc/latest/network-access-analyzer/what-is-network-access-analyzer.html" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="70" width="820" height="90" as="geometry" />
         </mxCell>
         <mxCell id="fnPPeZ1GcdLhFJwomill-11" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
           <mxGeometry x="110" y="3334" width="78" height="78" as="geometry" />
