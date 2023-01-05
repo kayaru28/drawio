@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-05T14:23:04.175Z" agent="5.0 (Windows)" etag="TiDKMIwXrBNBB6Mcj5EB" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-01-05T15:05:18.982Z" agent="5.0 (Windows)" etag="m8FYq4A1tmANoULG07kk" version="20.7.4" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2347,7 +2347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0A7OAjXq5tXsCYaC43KP" name="Network:Overview">
-    <mxGraphModel dx="5799" dy="2155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3605" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2578,7 +2578,13 @@
           <mxGeometry x="112" y="105" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SosnOt6WuzmqS-L1gRPD-44" value="Transit Gateway" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="THu7pNJ_q9gSdTDgXlIP-61" vertex="1">
-          <mxGeometry x="280" y="828" width="110" height="30" as="geometry" />
+          <mxGeometry x="219" y="828" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lpDtPvZSyR8vxCISN3f0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="THu7pNJ_q9gSdTDgXlIP-61" source="lpDtPvZSyR8vxCISN3f0-2" target="THu7pNJ_q9gSdTDgXlIP-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpDtPvZSyR8vxCISN3f0-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.transit_gateway;labelBackgroundColor=none;" vertex="1" parent="THu7pNJ_q9gSdTDgXlIP-61">
+          <mxGeometry x="288" y="880" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="THu7pNJ_q9gSdTDgXlIP-64" value="Direct Connect" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1070" y="680" width="100" height="30" as="geometry" />
@@ -2647,6 +2653,11 @@
         </mxCell>
         <mxCell id="SosnOt6WuzmqS-L1gRPD-49" value="&lt;div&gt;IPSec&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SosnOt6WuzmqS-L1gRPD-45" vertex="1" connectable="0">
           <mxGeometry x="-0.1238" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpDtPvZSyR8vxCISN3f0-1" value="VPN接続" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SosnOt6WuzmqS-L1gRPD-45">
+          <mxGeometry x="0.9141" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
