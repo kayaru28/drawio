@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T06:08:06.981Z" agent="5.0 (Windows)" etag="IrNi4apKezI5HUYZP2B_" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-01-06T06:26:48.253Z" agent="5.0 (Windows)" etag="OBlwAxOdcdqMTiuUBcso" version="20.7.4" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2576,7 +2576,7 @@
             <mxPoint x="-5" y="-31" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="81lBVk8yqLpcfrAjfay--2" value="NWアプライアンス接続" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SosnOt6WuzmqS-L1gRPD-5">
+        <mxCell id="81lBVk8yqLpcfrAjfay--2" value="Transit Gateway Connect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SosnOt6WuzmqS-L1gRPD-5">
           <mxGeometry x="0.6346" y="3" relative="1" as="geometry">
             <mxPoint x="-21" as="offset" />
           </mxGeometry>
