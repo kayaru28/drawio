@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T13:34:56.343Z" agent="5.0 (Windows)" etag="K9BmADJWumUSr4wZw-d_" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-01-10T13:44:58.876Z" agent="5.0 (Windows)" etag="PjJ6uEYsWZTr8N7KkArr" version="20.7.4" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2865,18 +2865,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yH6q47hW-nWYA8Xp7tSL" name="Network:ネットワーク管理">
-    <mxGraphModel dx="3312" dy="2031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4023" dy="2400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-1" value="フローログの作成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-550" y="270" width="1130" height="30" as="geometry" />
+          <mxGeometry x="-550" y="470" width="1130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-3" value="キャプチャするトラフィックの種類" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-310" y="330" width="430" height="30" as="geometry" />
+          <mxGeometry x="-310" y="530" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-4" value="フローログデータを発行する送信先" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="330" width="450" height="30" as="geometry" />
+          <mxGeometry x="130" y="530" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zEhbNs8FAtrb4aTju6W8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="J7uvHYNTAHmQuNFKRBrS-6" target="zEhbNs8FAtrb4aTju6W8-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2888,45 +2888,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-6" value="フローログ&lt;br&gt;（作成後、変更不可）" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="490" width="120" height="80" as="geometry" />
+          <mxGeometry x="-80" y="690" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-8" value="&lt;div&gt;ネットワーク&lt;/div&gt;&lt;div&gt;インターフェース&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-520" y="370" width="120" height="80" as="geometry" />
+          <mxGeometry x="-520" y="570" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-9" value="サブネット&lt;br&gt;（内のENI）" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-520" y="490" width="120" height="80" as="geometry" />
+          <mxGeometry x="-520" y="690" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-10" value="&lt;div&gt;VPC&lt;br&gt;（内のENI）&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-520" y="620" width="120" height="80" as="geometry" />
+          <mxGeometry x="-520" y="820" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="J7uvHYNTAHmQuNFKRBrS-10" target="J7uvHYNTAHmQuNFKRBrS-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-10" y="620" as="sourcePoint" />
-            <mxPoint x="40" y="570" as="targetPoint" />
+            <mxPoint x="-10" y="820" as="sourcePoint" />
+            <mxPoint x="40" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="J7uvHYNTAHmQuNFKRBrS-8" target="J7uvHYNTAHmQuNFKRBrS-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-395.0863572676617" y="653.882489275963" as="sourcePoint" />
-            <mxPoint x="-64.8543673648469" y="556.2069721759772" as="targetPoint" />
+            <mxPoint x="-395.0863572676617" y="853.882489275963" as="sourcePoint" />
+            <mxPoint x="-64.8543673648469" y="756.2069721759772" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="J7uvHYNTAHmQuNFKRBrS-9" target="J7uvHYNTAHmQuNFKRBrS-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-394.4120053726615" y="435.0550818782376" as="sourcePoint" />
-            <mxPoint x="-65.53281737232919" y="524.854686171183" as="targetPoint" />
+            <mxPoint x="-394.4120053726615" y="635.0550818782376" as="sourcePoint" />
+            <mxPoint x="-65.53281737232919" y="724.854686171183" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-15" value="&lt;div&gt;デフォルト形式&lt;/div&gt;&lt;div&gt;（変更不可）&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="-150" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-18" value="フローログを作成するリソース" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-550" y="330" width="220" height="30" as="geometry" />
+          <mxGeometry x="-550" y="530" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-19" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-370" y="390" as="sourcePoint" />
-            <mxPoint x="-40" y="390" as="targetPoint" />
+            <mxPoint x="-370" y="590" as="sourcePoint" />
+            <mxPoint x="-40" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-20" value="集約間隔に従う&lt;br&gt;&lt;div&gt;1分 or 10分&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nitroベースアタッチ＝1分以下&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="J7uvHYNTAHmQuNFKRBrS-19" vertex="1" connectable="0">
@@ -2935,75 +2935,75 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-22" value="許可された&lt;br&gt;トラフィック&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OR/AND&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;拒否された&lt;br&gt;トラフィック&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="460" width="140" height="150" as="geometry" />
+          <mxGeometry x="-300" y="660" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-23" value="カスタム形式" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="670" width="120" height="60" as="geometry" />
+          <mxGeometry y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="J7uvHYNTAHmQuNFKRBrS-15" target="J7uvHYNTAHmQuNFKRBrS-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-395.11267716966904" y="653.8426928464826" as="sourcePoint" />
-            <mxPoint x="-64.85436736483916" y="556.2069721759751" as="targetPoint" />
+            <mxPoint x="-395.11267716966904" y="853.8426928464826" as="sourcePoint" />
+            <mxPoint x="-64.85436736483916" y="756.2069721759751" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="J7uvHYNTAHmQuNFKRBrS-23" target="J7uvHYNTAHmQuNFKRBrS-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-67.64705882352928" y="680" as="sourcePoint" />
-            <mxPoint x="-25.883018906813504" y="578.5730459165474" as="targetPoint" />
+            <mxPoint x="-67.64705882352928" y="880" as="sourcePoint" />
+            <mxPoint x="-25.883018906813504" y="778.5730459165474" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7uvHYNTAHmQuNFKRBrS-26" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.kinesis_data_firehose;" parent="1" vertex="1">
-          <mxGeometry x="470" y="720" width="78" height="78" as="geometry" />
+          <mxGeometry x="470" y="920" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="zEhbNs8FAtrb4aTju6W8-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch_2;" parent="1" vertex="1">
-          <mxGeometry x="470" y="560" width="78" height="78" as="geometry" />
+          <mxGeometry x="470" y="760" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="zEhbNs8FAtrb4aTju6W8-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
-          <mxGeometry x="470" y="412" width="78" height="78" as="geometry" />
+          <mxGeometry x="470" y="612" width="78" height="78" as="geometry" />
         </mxCell>
         <UserObject label="CloudWatch Logs" id="zEhbNs8FAtrb4aTju6W8-6">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-            <mxGeometry x="449" y="635" width="120" height="30" as="geometry" />
+            <mxGeometry x="449" y="835" width="120" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="zEhbNs8FAtrb4aTju6W8-7" value="S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="489" y="485" width="40" height="30" as="geometry" />
+          <mxGeometry x="489" y="685" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zEhbNs8FAtrb4aTju6W8-8" value="Kinesis Data Firehose " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="434" y="795" width="150" height="30" as="geometry" />
+          <mxGeometry x="434" y="995" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-2" value="&lt;div align=&quot;left&quot;&gt;・フィールド&lt;br&gt;https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/flow-logs.html&lt;/div&gt; &lt;table width=&quot;145&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; align=&quot;left&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;mso-width-source:userset;mso-width-alt:4640;width:109pt&quot; width=&quot;145&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt;&lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt;width:109pt&quot; width=&quot;145&quot; height=&quot;25&quot;&gt;account-id&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;interface-id&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;srcaddr&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;dstaddr&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;srcport&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;dstport&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;protocol&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;packets&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;bytes&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;start&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;end&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;action&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;log-status&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;vpc-id&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;subnet-id&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;instance-id&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;tcp-flags&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;type&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;pkt-srcaddr&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;pkt-dstaddr&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;region&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;az-id&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;sublocation-type&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;sublocation-id&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;pkt-src-aws-service&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;pkt-dst-aws-service&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;flow-direction&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;  &lt;td style=&quot;height:18.75pt&quot; height=&quot;25&quot;&gt;traffic-path&lt;/td&gt; &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="20" y="745" width="410" height="740" as="geometry" />
+          <mxGeometry x="20" y="945" width="410" height="740" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-3" value="&lt;div&gt;フローログ用のロググループ&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="590" y="540" width="206" height="130" as="geometry" />
+          <mxGeometry x="590" y="740" width="206" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="617" y="575" width="120" height="60" as="geometry" />
+          <mxGeometry x="617" y="775" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-7" value="ネットワークインターフェースごとのログストリーム" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="625" y="583" width="120" height="60" as="geometry" />
+          <mxGeometry x="625" y="783" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry y="470" width="20" height="45" as="geometry" />
+          <mxGeometry y="670" width="20" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-9" value="IAMロール" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="435" width="80" height="30" as="geometry" />
+          <mxGeometry x="-20" y="635" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-10" value="&lt;div&gt;ログファイルに統合して5分間隔送付&lt;/div&gt;&lt;div&gt;上限75MBまで&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="224" y="410" width="220" height="40" as="geometry" />
+          <mxGeometry x="224" y="610" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-11" value="直接発行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="320" y="570" width="70" height="30" as="geometry" />
+          <mxGeometry x="320" y="770" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-12" value="プレーンテキストで直接発行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="260" y="725" width="180" height="30" as="geometry" />
+          <mxGeometry x="260" y="925" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gK3ceTjbHsuRmdiCp9hs-13" value="別アカウントも利用可能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="430" y="815" width="160" height="30" as="geometry" />
+          <mxGeometry x="430" y="1015" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-RAC0yUry4dWKET07oOR-1" value="Traffic Mirroring" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-1385" y="-1004" width="160" height="40" as="geometry" />
@@ -3075,8 +3075,8 @@
         </mxCell>
         <mxCell id="-RAC0yUry4dWKET07oOR-21" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;strokeWidth=11;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1530" y="190" as="sourcePoint" />
-            <mxPoint x="1620" y="190" as="targetPoint" />
+            <mxPoint x="-1530" y="390" as="sourcePoint" />
+            <mxPoint x="1620" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-RAC0yUry4dWKET07oOR-22" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.vpc_network_access_analyzer;" parent="1" vertex="1">
@@ -3115,7 +3115,7 @@
           <mxGeometry x="-1093" y="-460" width="193" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-RAC0yUry4dWKET07oOR-32" value="VPC Flow Logs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;" parent="1" vertex="1">
-          <mxGeometry x="-1475" y="230" width="200" height="40" as="geometry" />
+          <mxGeometry x="-1475" y="430" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-RAC0yUry4dWKET07oOR-33" value="VPC Network Access Analyzer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-1455" y="-570" width="300" height="40" as="geometry" />
@@ -3141,7 +3141,12 @@
           <mxGeometry x="-1093" y="-290" width="193" height="30" as="geometry" />
         </mxCell>
         <mxCell id="orL2OUb7PPbHvDO-aolz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=21;" parent="1" source="-RAC0yUry4dWKET07oOR-39" target="orL2OUb7PPbHvDO-aolz-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-810" y="-105" />
+              <mxPoint x="-810" y="-108" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-RAC0yUry4dWKET07oOR-39" value="Subnet" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="-1080" y="-140" width="170" height="70" as="geometry" />
@@ -3209,27 +3214,41 @@
         </mxCell>
         <mxCell id="lq9d3FqbacpDpUflcUaa-1" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;strokeWidth=11;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1530" y="1529.9999999999995" as="sourcePoint" />
-            <mxPoint x="1620" y="1529.9999999999995" as="targetPoint" />
+            <mxPoint x="-1530" y="1729.9999999999995" as="sourcePoint" />
+            <mxPoint x="1620" y="1729.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lq9d3FqbacpDpUflcUaa-2" value="VPC IPAM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;" parent="1" vertex="1">
-          <mxGeometry x="-1445" y="1550" width="140" height="40" as="geometry" />
+          <mxGeometry x="-1445" y="1750" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lq9d3FqbacpDpUflcUaa-3" value="&lt;div&gt;&lt;b&gt;スコープ&lt;/b&gt;&lt;/div&gt;&lt;div&gt;単一のアドレスのグループ、スコープ内でのアドレス重複は不可&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-1290" y="1610" width="730" height="330" as="geometry" />
+          <mxGeometry x="-1290" y="1810" width="730" height="330" as="geometry" />
         </mxCell>
         <mxCell id="lq9d3FqbacpDpUflcUaa-4" value="&lt;div&gt;&lt;b&gt;プール&lt;/b&gt;&lt;/div&gt;&lt;div&gt;特定のアドレス空間&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-1260" y="1670" width="310" height="240" as="geometry" />
+          <mxGeometry x="-1260" y="1870" width="310" height="240" as="geometry" />
         </mxCell>
         <mxCell id="lq9d3FqbacpDpUflcUaa-5" value="&lt;div&gt;&lt;b&gt;プール&lt;/b&gt;&lt;/div&gt;&lt;div&gt;特定のアドレス空間&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="1670" width="310" height="240" as="geometry" />
+          <mxGeometry x="-900" y="1870" width="310" height="240" as="geometry" />
         </mxCell>
         <mxCell id="lq9d3FqbacpDpUflcUaa-6" value="&lt;div&gt;&lt;b&gt;プール&lt;/b&gt;&lt;/div&gt;&lt;div&gt;特定のアドレス空間&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-1240" y="1720" width="120" height="160" as="geometry" />
+          <mxGeometry x="-1240" y="1920" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="lq9d3FqbacpDpUflcUaa-7" value="&lt;div&gt;&lt;b&gt;プール&lt;/b&gt;&lt;/div&gt;&lt;div&gt;特定のアドレス空間&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-1100" y="1720" width="120" height="160" as="geometry" />
+          <mxGeometry x="-1100" y="1920" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_D2jxqYHXmEfZenMmQEC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_D2jxqYHXmEfZenMmQEC-1" target="orL2OUb7PPbHvDO-aolz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-810" y="189" />
+              <mxPoint x="-810" y="-108" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D2jxqYHXmEfZenMmQEC-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.transit_gateway;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1044" y="150" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="_D2jxqYHXmEfZenMmQEC-3" value="Transit Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-1093" y="120" width="193" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
