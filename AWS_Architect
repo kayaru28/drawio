@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T07:26:42.887Z" agent="5.0 (Windows)" etag="VbwWgeOzzvc1YEaTgpNf" version="20.7.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-01-10T13:34:56.343Z" agent="5.0 (Windows)" etag="K9BmADJWumUSr4wZw-d_" version="20.7.4" type="github" pages="16">
   <diagram id="lwDGcVDEjvvTej-EiGZ7" name="Security">
     <mxGraphModel dx="1658" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2347,7 +2347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0A7OAjXq5tXsCYaC43KP" name="Network:Overview">
-    <mxGraphModel dx="3312" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3096" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2858,6 +2858,9 @@
         <mxCell id="PAJj9fu9MLRCMWdZv-fN-4" value="&lt;b&gt;MTU&lt;/b&gt;&lt;br&gt;&lt;div&gt;VPN接続以外：ジャンボ（8500B）&lt;/div&gt;&lt;div&gt;VPN接続：スモール（1500B）&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="890" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="L0kZ9m35v4icGpKTWrkm-1" value="セキュリティグループの&lt;br&gt;リファレンスは無効" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="980" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -3232,7 +3235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cb9kk9KwxakzPPnQzh8k" name="Network：Routing">
-    <mxGraphModel dx="2763" dy="2606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1579" dy="1990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3316,8 +3319,8 @@
         <mxCell id="yW8yd9nMvMLuLSwHzCVA-4" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" parent="1" vertex="1">
           <mxGeometry x="900" y="370" width="78" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="yW8yd9nMvMLuLSwHzCVA-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://docs.aws.amazon.com/vpc/latest/tgw/tgw-route-tables.html&quot;&gt;トランジットゲートウェイルートテーブル&lt;/a&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;アタッチメントごとにルートテーブルを設定可能&lt;/li&gt;&lt;li&gt;ルートテーブルの曹宇新先はいずれかのアタッチメントである必要がある&lt;br&gt;&lt;/li&gt;&lt;li&gt;静的ルート設定&lt;/li&gt;&lt;ul&gt;&lt;li&gt;VPC、VPN、トランジットゲートウェイピアリングアタッチメントへのルートを設定可能&lt;/li&gt;&lt;li&gt;ブラックホールルートも設定可能&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;動的ルート設定（from VPC接続、VPN接続、DX GW接続）&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;アタッチメントを指定してルートを伝搬してもらうように設定可能&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="905" y="430" width="580" height="170" as="geometry" />
+        <mxCell id="yW8yd9nMvMLuLSwHzCVA-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://docs.aws.amazon.com/vpc/latest/tgw/tgw-route-tables.html&quot;&gt;トランジットゲートウェイルートテーブル&lt;/a&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;アタッチメントごとにルートテーブルを設定可能&lt;/li&gt;&lt;li&gt;ルートテーブルの曹宇新先はいずれかのアタッチメントである必要がある&lt;br&gt;&lt;/li&gt;&lt;li&gt;静的ルート設定&lt;/li&gt;&lt;ul&gt;&lt;li&gt;VPC、VPN、トランジットゲートウェイピアリングアタッチメントへのルートを設定可能&lt;/li&gt;&lt;li&gt;ブラックホールルートも設定可能&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;動的ルート設定（from VPC接続、VPN接続、DX GW接続）&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;アタッチメントを指定してルートを伝搬してもらうように設定可能&lt;/li&gt;&lt;li&gt;VPC の CIDR ブロックまたはBGP経由で学習されたルート&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="905" y="430" width="580" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Nh6CiP4rY_r4PpKcMTov-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" vertex="1" parent="1">
           <mxGeometry x="990" y="370" width="78" height="76" as="geometry" />
